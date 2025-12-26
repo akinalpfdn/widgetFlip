@@ -64,7 +64,7 @@ struct ContentView: View {
                                 )
                         )
                     
-                    Image(systemName: coinSide == "HEADS" ? "crown.fill" : "eagle")
+                    Image(systemName: coinSide == "HEADS" ? "crown.fill" : "shield.fill")
                         .resizable()
                         .scaledToFit()
                         .frame(width: 80, height: 80)
@@ -91,7 +91,7 @@ struct ContentView: View {
                         HStack(spacing: 15) {
                             ForEach(history, id: \.self) { item in
                                 VStack {
-                                    Image(systemName: item.contains("HEADS") ? "crown.fill" : "eagle")
+                                    Image(systemName: item.contains("HEADS") ? "crown.fill" : "shield.fill")
                                         .font(.title2)
                                         .foregroundStyle(item.contains("HEADS") ? .orange : .gray)
                                     Text(item.components(separatedBy: " - ").first ?? "FLIP")
@@ -130,7 +130,7 @@ struct ContentView: View {
         // Prepare result
         let isHeads = Bool.random()
         let result = isHeads ? "HEADS" : "TAILS"
-        let icon = isHeads ? "crown.fill" : "eagle"
+        let icon = isHeads ? "crown.fill" : "shield.fill"
         
         // Animate
         withAnimation(.interpolatingSpring(stiffness: 100, damping: 10)) {

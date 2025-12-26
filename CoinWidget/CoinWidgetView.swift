@@ -54,15 +54,16 @@ struct CoinWidgetView: View {
                             .frame(width: 40, height: 40)
                             .foregroundColor(.white)
                             .shadow(color: .black.opacity(0.2), radius: 1, x: 0, y: 1)
-                            .contentTransition(.symbolEffect(.replace))
+                            .contentTransition(.symbolEffect(.replace.downUp.byLayer))
                     }
                     .frame(width: 85, height: 85)
                     .rotation3DEffect(
-                        .degrees(entry.id == 0 ? 0 : 360),
-                        axis: (x: 0.0, y: 1.0, z: 0.0), // Y-axis spin looks more like a real coin flip
+                        .degrees(entry.side == "HEADS" ? 0 : 180),
+                        axis: (x: 0.0, y: 1.0, z: 0.0),
                         perspective: 0.5
                     )
-                    .id(entry.id)
+                    // This animation modifier ensures the transition happens smoothly when the entry ID updates
+                    .animation(.spring(response: 0.6, dampingFraction: 0.5), value: entry.id)
                     
                     // Result Text
                     Text(entry.side)
