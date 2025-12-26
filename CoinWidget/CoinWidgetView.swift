@@ -65,7 +65,7 @@ struct CoinWidgetView: View {
                 .animation(.spring(response: 0.6, dampingFraction: 0.5), value: entry.id)
                 
                 // Result Text
-                Text(entry.side)
+                Text(LocalizedStringKey(entry.side))
                     .font(.system(size: 14, weight: .heavy, design: .rounded))
                     .tracking(2)
                     .foregroundStyle(entry.side == "HEADS" ? Color.orange : Color(white: 0.8))

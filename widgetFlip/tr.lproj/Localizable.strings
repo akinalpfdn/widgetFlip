@@ -1,0 +1,16 @@
+/* English */
+"HEADS" = "YAZI";
+"TAILS" = "TURA";
+"Flip Coin" = "Yazı Tura";
+"Tap to flip the coin." = "Parayı çevirmek için dokun.";
+"RECENT FLIPS" = "SON ÇEVİRMELER";
+"No flips yet. Add the widget and start flipping!" = "Henüz çevirme yok. Widget ekle ve başla!";
+"Flip History" = "Atış Geçmişi";
+"Start Timer" = "Zamanlayıcıyı Başlat";
+"Timer" = "Zamanlayıcı";
+"A an example control that runs a timer." = "Zamanlayıcı çalıştıran örnek bir kontrol.";
+"On" = "Açık";
+"Off" = "Kapalı";
+"Start a timer" = "Zamanlayıcı başlat";
+"Timer is running" = "Zamanlayıcı çalışıyor";
+"FLIP" = "ÇEVİR";

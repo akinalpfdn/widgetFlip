@@ -94,7 +94,7 @@ struct ContentView: View {
                                     Image(systemName: item.contains("HEADS") ? "crown.fill" : "shield.fill")
                                         .font(.title2)
                                         .foregroundStyle(item.contains("HEADS") ? .orange : .gray)
-                                    Text(item.components(separatedBy: " - ").first ?? "FLIP")
+                                    Text(LocalizedStringKey(item.components(separatedBy: " - ").first ?? "FLIP"))
                                         .font(.caption2)
                                         .fontWeight(.bold)
                                         .foregroundStyle(.white)
