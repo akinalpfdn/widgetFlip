@@ -8,7 +8,7 @@ struct ContentView: View {
     @State private var coinSide: String = "HEADS"
     @State private var rotation: Double = 0
     @State private var isFlipping = false
-    @State private var showParticles = false
+
     
     // Gradients
     let darkGradient = LinearGradient(
@@ -111,10 +111,6 @@ struct ContentView: View {
                 .padding(.bottom, 20)
             }
             
-            // Particle Effect Overlay
-            if showParticles {
-                ParticleView()
-            }
         }
         .onAppear { loadHistory() }
         .onReceive(NotificationCenter.default.publisher(for: UIApplication.willEnterForegroundNotification)) { _ in
@@ -125,7 +121,6 @@ struct ContentView: View {
     func flipCoin() {
         guard !isFlipping else { return }
         isFlipping = true
-        showParticles = false
         
         // Prepare result
         let isHeads = Bool.random()
@@ -144,7 +139,6 @@ struct ContentView: View {
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
             isFlipping = false
-            if isHeads { showParticles = true } 
             saveResult(side: result, icon: icon)
         }
     }
@@ -170,40 +164,4 @@ struct ContentView: View {
     }
 }
 
-// Simple Particle Effect Implementation
-struct ParticleView: View {
-    @State private var time = 0.0
-    
-    var body: some View {
-        TimelineView(.animation) { timeline in
-            Canvas { context, size in
-                let now = timeline.date.timeIntervalSinceReferenceDate
-                let angle = Angle.degrees(now * 100)
-                let x = size.width / 2
-                let y = size.height / 2
-                
-                for i in 0..<20 {
-                    let offset = Double(i) * 20
-                    let _ = context.draw(
-                        Image(systemName: "star.fill"),
-                        at: CGPoint(
-                            x: x + cos(angle.radians + offset) * 100,
-                            y: y + sin(angle.radians + offset) * 100
-                        )
-                    )
-                }
-            }
-        }
-        .foregroundStyle(.yellow)
-        .opacity(0.8)
-        .allowsHitTesting(false)
-        .mask(
-            RadialGradient(colors: [.black, .clear], center: .center, startRadius: 50, endRadius: 200)
-        )
-        .onAppear {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
-                // Fade out handling would be here in a real particle system
-            }
-        }
-    }
-}
+
