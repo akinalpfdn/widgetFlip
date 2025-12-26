@@ -36,6 +36,11 @@ struct ContentView: View {
         ZStack {
             darkGradient.ignoresSafeArea()
             
+            Image("WidgetBackground")
+                .resizable()
+                .scaledToFill()
+                .ignoresSafeArea()
+            
             VStack {
                 Spacer()
                 

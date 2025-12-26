@@ -44,14 +44,20 @@ struct CoinWidget: Widget {
         StaticConfiguration(kind: kind, provider: CoinProvider()) { entry in
             CoinWidgetView(entry: entry)
                 .containerBackground(for: .widget) {
-                    LinearGradient(
-                        gradient: Gradient(colors: [
-                            Color(red: 0.1, green: 0.1, blue: 0.12),
-                            Color(red: 0.05, green: 0.05, blue: 0.06)
-                        ]),
-                        startPoint: .topLeading,
-                        endPoint: .bottomTrailing
-                    )
+                    ZStack {
+                        LinearGradient(
+                            gradient: Gradient(colors: [
+                                Color(red: 0.1, green: 0.1, blue: 0.12),
+                                Color(red: 0.05, green: 0.05, blue: 0.06)
+                            ]),
+                            startPoint: .topLeading,
+                            endPoint: .bottomTrailing
+                        )
+                        
+                        Image("WidgetBackground")
+                            .resizable()
+                            .scaledToFill()
+                    }
                 }
         }
         .configurationDisplayName("Flip Coin")
