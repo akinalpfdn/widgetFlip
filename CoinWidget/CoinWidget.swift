@@ -42,9 +42,14 @@ struct CoinWidget: Widget {
         StaticConfiguration(kind: kind, provider: CoinProvider()) { entry in
             CoinWidgetView(entry: entry)
                 .containerBackground(for: .widget) {
-                    // Adaptive background color
-                    //  Color("WidgetBackground")
-                    Color(.systemBackground)
+                    LinearGradient(
+                        gradient: Gradient(colors: [
+                            Color(red: 0.1, green: 0.1, blue: 0.12),
+                            Color(red: 0.05, green: 0.05, blue: 0.06)
+                        ]),
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing
+                    )
                 }
         }
         .configurationDisplayName("Flip Coin")
