@@ -20,6 +20,10 @@ struct FlipCoinIntent: AppIntent {
             sharedDefaults.set(iconString, forKey: "coinIcon")
             sharedDefaults.set(Date().timeIntervalSince1970, forKey: "lastFlipTime")
             
+            // Increment rotation counter for animation
+            let currentCount = sharedDefaults.integer(forKey: "flipCount")
+            sharedDefaults.set(currentCount + 1, forKey: "flipCount")
+            
             // 2. Append to History for the Main App
             var history = sharedDefaults.stringArray(forKey: "flipHistory") ?? []
             let timestamp = Date().formatted(date: .abbreviated, time: .shortened)

@@ -9,6 +9,8 @@ struct CoinWidgetView: View {
         GeometryReader { geo in
             ZStack {
                 VStack(spacing: 16) {
+                    Spacer()
+                    
                     // Coin Visual
                     ZStack {
                         // Ambient Glow
@@ -58,7 +60,7 @@ struct CoinWidgetView: View {
                     }
                     .frame(width: 85, height: 85)
                     .rotation3DEffect(
-                        .degrees(entry.side == "HEADS" ? 0 : 180),
+                        .degrees(Double(entry.flipCount) * 720 + (entry.side == "HEADS" ? 0 : 180)),
                         axis: (x: 0.0, y: 1.0, z: 0.0),
                         perspective: 0.5
                     )
@@ -71,9 +73,12 @@ struct CoinWidgetView: View {
                         .tracking(2)
                         .foregroundStyle(entry.side == "HEADS" ? Color.orange : Color(white: 0.8))
                         .contentTransition(.numericText())
+                    
+                    Spacer()
                 }
                 .padding()
             }
+            .frame(maxWidth: .infinity, maxHeight: .infinity) // Center in Widget
         }
         .widgetURL(nil)
         .overlay {
