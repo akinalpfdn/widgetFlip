@@ -1,84 +1,57 @@
-//
-//  CoinWidget.swift
-//  CoinWidget
-//
-//  Created by Akinalp Fidan on 27.12.2025.
-//
-
 import WidgetKit
 import SwiftUI
 
-struct Provider: TimelineProvider {
-    func placeholder(in context: Context) -> SimpleEntry {
-        SimpleEntry(date: Date(), emoji: "😀")
+struct CoinEntry: TimelineEntry {
+    let date: Date
+    let side: String
+    let iconName: String
+    let id: Double
+}
+
+struct CoinProvider: TimelineProvider {
+    func placeholder(in context: Context) -> CoinEntry {
+        CoinEntry(date: Date(), side: "HEADS", iconName: "crown.fill", id: 0)
     }
 
-    func getSnapshot(in context: Context, completion: @escaping (SimpleEntry) -> ()) {
-        let entry = SimpleEntry(date: Date(), emoji: "😀")
+    func getSnapshot(in context: Context, completion: @escaping (CoinEntry) -> ()) {
+        let entry = CoinEntry(date: Date(), side: "HEADS", iconName: "crown.fill", id: 0)
         completion(entry)
     }
 
-    func getTimeline(in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
-        var entries: [SimpleEntry] = []
+    func getTimeline(in context: Context, completion: @escaping (Timeline<CoinEntry>) -> ()) {
+            // Use the shared App Group
+            let defaults = UserDefaults(suiteName: "group.com.akinalpfdn.widgetflip")
+            
+            // Fetch data (safely unwrap with default values if empty)
+            let side = defaults?.string(forKey: "coinSide") ?? "FLIP"
+            let icon = defaults?.string(forKey: "coinIcon") ?? "arrow.triangle.2.circlepath"
+            let lastId = defaults?.double(forKey: "lastFlipTime") ?? 0
+            
+            let entry = CoinEntry(date: Date(), side: side, iconName: icon, id: lastId)
 
-        // Generate a timeline consisting of five entries an hour apart, starting from the current date.
-        let currentDate = Date()
-        for hourOffset in 0 ..< 5 {
-            let entryDate = Calendar.current.date(byAdding: .hour, value: hourOffset, to: currentDate)!
-            let entry = SimpleEntry(date: entryDate, emoji: "😀")
-            entries.append(entry)
+            let timeline = Timeline(entries: [entry], policy: .never)
+            completion(timeline)
         }
-
-        let timeline = Timeline(entries: entries, policy: .atEnd)
-        completion(timeline)
-    }
-
-//    func relevances() async -> WidgetRelevances<Void> {
-//        // Generate a list containing the contexts this widget is relevant in.
-//    }
 }
 
-struct SimpleEntry: TimelineEntry {
-    let date: Date
-    let emoji: String
-}
-
-struct CoinWidgetEntryView : View {
-    var entry: Provider.Entry
-
-    var body: some View {
-        VStack {
-            Text("Time:")
-            Text(entry.date, style: .time)
-
-            Text("Emoji:")
-            Text(entry.emoji)
-        }
-    }
-}
-
+@main
 struct CoinWidget: Widget {
     let kind: String = "CoinWidget"
 
     var body: some WidgetConfiguration {
-        StaticConfiguration(kind: kind, provider: Provider()) { entry in
-            if #available(iOS 17.0, *) {
-                CoinWidgetEntryView(entry: entry)
-                    .containerBackground(.fill.tertiary, for: .widget)
-            } else {
-                CoinWidgetEntryView(entry: entry)
-                    .padding()
-                    .background()
-            }
+        StaticConfiguration(kind: kind, provider: CoinProvider()) { entry in
+            CoinWidgetView(entry: entry)
+                .containerBackground(for: .widget) {
+                    // Adaptive background color
+                    //  Color("WidgetBackground")
+                    Color(.systemBackground)
+                }
         }
-        .configurationDisplayName("My Widget")
-        .description("This is an example widget.")
+        .configurationDisplayName("Flip Coin")
+        .description("Tap to flip the coin.")
+        .supportedFamilies([.systemSmall, .systemMedium, .systemLarge])
     }
 }
 
-#Preview(as: .systemSmall) {
-    CoinWidget()
-} timeline: {
-    SimpleEntry(date: .now, emoji: "😀")
-    SimpleEntry(date: .now, emoji: "🤩")
-}
+// Add a Color Set named "WidgetBackground" in Assets if you want custom colors,
+// otherwise it defaults to System Background.
