@@ -10,7 +10,7 @@ struct FlipCoinIntent: AppIntent {
     func perform() async throws -> some IntentResult {
         let isHeads = Bool.random()
         let resultString = isHeads ? "HEADS" : "TAILS"
-        let iconString = isHeads ? "crown.fill" : "shield.fill"
+        let iconString = isHeads ? "HeadsImage" : "TailsImage"
         
         // Access the shared App Group
         if let sharedDefaults = UserDefaults(suiteName: "group.com.akinalpfdn.widgetflip") {

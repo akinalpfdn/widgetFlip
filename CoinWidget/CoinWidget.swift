@@ -11,11 +11,11 @@ struct CoinEntry: TimelineEntry {
 
 struct CoinProvider: TimelineProvider {
     func placeholder(in context: Context) -> CoinEntry {
-        CoinEntry(date: Date(), side: "HEADS", iconName: "crown.fill", id: 0, flipCount: 0)
+        CoinEntry(date: Date(), side: "HEADS", iconName: "HeadsImage", id: 0, flipCount: 0)
     }
 
     func getSnapshot(in context: Context, completion: @escaping (CoinEntry) -> ()) {
-        let entry = CoinEntry(date: Date(), side: "HEADS", iconName: "crown.fill", id: 0, flipCount: 0)
+        let entry = CoinEntry(date: Date(), side: "HEADS", iconName: "HeadsImage", id: 0, flipCount: 0)
         completion(entry)
     }
 
@@ -25,7 +25,7 @@ struct CoinProvider: TimelineProvider {
             
             // Fetch data (safely unwrap with default values if empty)
             let side = defaults?.string(forKey: "coinSide") ?? "FLIP"
-            let icon = defaults?.string(forKey: "coinIcon") ?? "arrow.triangle.2.circlepath"
+            let icon = defaults?.string(forKey: "coinIcon") ?? "HeadsImage"
             let lastId = defaults?.double(forKey: "lastFlipTime") ?? 0
             let count = defaults?.integer(forKey: "flipCount") ?? 0
             

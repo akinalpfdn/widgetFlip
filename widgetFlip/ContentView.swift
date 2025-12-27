@@ -44,38 +44,12 @@ struct ContentView: View {
                 Spacer()
                 
                 // MAIN COIN
-                ZStack {
-                    // Glow
-                    Circle()
-                        .fill(coinSide == "HEADS" ? Color.orange.opacity(0.4) : Color.blue.opacity(0.4))
-                        .frame(width: 220, height: 220)
-                        .blur(radius: 30)
-                    
-                    // Coin
-                    Circle()
-                        .fill(coinSide == "HEADS" ? goldGradient : silverGradient)
-                        .frame(width: 200, height: 200)
-                        .shadow(color: .black.opacity(0.5), radius: 10, x: 0, y: 10)
-                        .overlay(
-                            Circle()
-                                .strokeBorder(
-                                    LinearGradient(
-                                        gradient: Gradient(colors: [.white.opacity(0.8), .clear, .black.opacity(0.5)]),
-                                        startPoint: .topLeading,
-                                        endPoint: .bottomTrailing
-                                    ),
-                                    lineWidth: 4
-                                )
-                        )
-                    
-                    Image(systemName: coinSide == "HEADS" ? "crown.fill" : "shield.fill")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 80, height: 80)
-                        .foregroundColor(.white)
-                        .shadow(color: .black.opacity(0.3), radius: 2, x: 0, y: 2)
-                }
-                .rotation3DEffect(.degrees(rotation), axis: (x: 1, y: 0, z: 0))
+                Image(coinSide == "HEADS" ? "HeadsImage" : "TailsImage")
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width: 200, height: 200)
+                    .clipShape(Circle())
+                    .rotation3DEffect(.degrees(rotation), axis: (x: 1, y: 0, z: 0))
                 .onTapGesture {
                     flipCoin()
                 }
@@ -95,9 +69,11 @@ struct ContentView: View {
                         HStack(spacing: 15) {
                             ForEach(history, id: \.self) { item in
                                 VStack {
-                                    Image(systemName: item.contains("HEADS") ? "crown.fill" : "shield.fill")
-                                        .font(.title2)
-                                        .foregroundStyle(item.contains("HEADS") ? .orange : .gray)
+                                    Image(item.contains("HEADS") ? "HeadsImage" : "TailsImage")
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: 24, height: 24)
+                                        // Removed font() and foregroundStyle()modifiers
                                     Text(LocalizedStringKey(item.components(separatedBy: " - ").first ?? "FLIP"))
                                         .font(.caption2)
                                         .fontWeight(.bold)
@@ -129,7 +105,7 @@ struct ContentView: View {
         // Prepare result
         let isHeads = Bool.random()
         let result = isHeads ? "HEADS" : "TAILS"
-        let icon = isHeads ? "crown.fill" : "shield.fill"
+        let icon = isHeads ? "HeadsImage" : "TailsImage"
         
         // Animate
         withAnimation(.interpolatingSpring(stiffness: 100, damping: 10)) {
