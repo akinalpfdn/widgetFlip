@@ -62,7 +62,7 @@ struct CoinWidget: Widget {
         }
         .configurationDisplayName("Flip Coin")
         .description("Tap to flip the coin.")
-        .supportedFamilies([.systemSmall, .systemMedium, .systemLarge])
+        .supportedFamilies([.systemSmall, .systemMedium, .systemLarge, .systemExtraLarge])
     }
 }
 

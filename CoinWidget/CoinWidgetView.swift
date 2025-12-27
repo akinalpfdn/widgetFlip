@@ -3,7 +3,21 @@ import WidgetKit
 import AppIntents
 
 struct CoinWidgetView: View {
-    var entry: CoinEntry
+    let entry: CoinEntry
+    @Environment(\.widgetFamily) var family
+    
+    var coinSize: CGFloat {
+        switch family {
+        case .systemSmall, .systemMedium:
+            return 85
+        case .systemLarge:
+            return 160
+        case .systemExtraLarge:
+            return 240
+        @unknown default:
+            return 85
+        }
+    }
 
     var body: some View {
         ZStack {
@@ -12,7 +26,7 @@ struct CoinWidgetView: View {
                 Image(entry.iconName)
                     .resizable()
                     .scaledToFill()
-                    .frame(width: 85, height: 85)
+                    .frame(width: coinSize, height: coinSize)
                     .clipShape(Circle())
                     .contentTransition(.symbolEffect(.replace.downUp.byLayer))
                     .rotation3DEffect(
