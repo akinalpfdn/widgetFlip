@@ -37,8 +37,7 @@ struct ContentView: View {
             darkGradient.ignoresSafeArea()
             
             Image("WidgetBackground")
-                .resizable()
-                .scaledToFill()
+                .resizable() 
                 .ignoresSafeArea()
             
             VStack {
