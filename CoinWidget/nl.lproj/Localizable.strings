@@ -1,0 +1,6 @@
+/* Widget */
+"HEADS" = "KOP";
+"TAILS" = "MUNT";
+"FLIP" = "GOOIEN";
+"Flip Coin" = "Kop of munt";
+"Tap to flip the coin." = "Tik om de munt op te gooien.";

@@ -1,0 +1,6 @@
+/* Widget */
+"HEADS" = "KRONA";
+"TAILS" = "KLAVE";
+"FLIP" = "SINGLA";
+"Flip Coin" = "Krona eller klave";
+"Tap to flip the coin." = "Tryck för att singla slant.";

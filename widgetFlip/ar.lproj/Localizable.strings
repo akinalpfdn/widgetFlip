@@ -1,0 +1,25 @@
+/* Coin flipping */
+"HEADS" = "صورة";
+"TAILS" = "كتابة";
+"FLIP" = "ارمِ";
+"RECENT FLIPS" = "آخر الرميات";
+
+/* Widget setup guide */
+"How to add a widget" = "كيفية إضافة أداة";
+"Close" = "إغلاق";
+"Got it" = "حسنًا";
+"On your Home Screen, touch and hold the Widget Flip icon. Choose a widget size at the top of the menu." = "في الشاشة الرئيسية، المس مطولًا أيقونة Widget Flip، ثم اختر حجم الأداة من أعلى القائمة.";
+"Edit Home Screen" = "تعديل الشاشة الرئيسية";
+"Remove App" = "إزالة التطبيق";
+
+"Other method" = "طريقة أخرى";
+"Next" = "التالي";
+"Back" = "رجوع";
+"Go to your Home Screen. Hold an empty area until the app icons start to jiggle." = "انتقل إلى الشاشة الرئيسية. المس مطولًا مساحة فارغة حتى تبدأ أيقونات التطبيقات في الاهتزاز.";
+"Tap Edit, then Add Widget. Search for Widget Flip and select it." = "اضغط على «تعديل»، ثم «إضافة أداة». ابحث عن Widget Flip واختره.";
+"Swipe to choose a size. Tap Add Widget, then Done. Tap the widget to flip a coin." = "اسحب لاختيار الحجم. اضغط على «إضافة أداة»، ثم «تم». اضغط على الأداة لرمي العملة.";
+"Edit" = "تعديل";
+"Touch & hold" = "المس مطولًا";
+"Edit → Add Widget" = "تعديل ← إضافة أداة";
+"Add Widget → Done" = "إضافة أداة ← تم";
+"Step %lld of 3" = "الخطوة %lld من 3";

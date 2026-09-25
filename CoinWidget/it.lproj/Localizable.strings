@@ -1,0 +1,6 @@
+/* Widget */
+"HEADS" = "TESTA";
+"TAILS" = "CROCE";
+"FLIP" = "LANCIA";
+"Flip Coin" = "Testa o croce";
+"Tap to flip the coin." = "Tocca per lanciare la moneta.";

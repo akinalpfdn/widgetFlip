@@ -8,6 +8,8 @@ struct ContentView: View {
     @State private var coinSide: String = "HEADS"
     @State private var rotation: Double = 0
     @State private var isFlipping = false
+    @State private var isShowingWidgetGuide = false
+    @AppStorage("hasSeenWidgetSetupGuide") private var hasSeenWidgetSetupGuide = false
 
     
     // Gradients
@@ -41,6 +43,23 @@ struct ContentView: View {
                 .ignoresSafeArea()
             
             VStack {
+                HStack {
+                    Spacer()
+                    Button {
+                        isShowingWidgetGuide = true
+                    } label: {
+                        Label("How to add a widget", systemImage: "square.grid.2x2")
+                            .font(.subheadline.weight(.semibold))
+                            .foregroundStyle(.orange)
+                            .padding(.horizontal, 16)
+                            .padding(.vertical, 12)
+                            .background(.black.opacity(0.4), in: Capsule())
+                    }
+                    .buttonStyle(.plain)
+                }
+                .padding(.horizontal)
+                .padding(.top, 8)
+
                 Spacer()
                 
                 // MAIN COIN
@@ -93,6 +112,16 @@ struct ContentView: View {
             
         }
         .onAppear { loadHistory() }
+        .task {
+            if !hasSeenWidgetSetupGuide {
+                isShowingWidgetGuide = true
+            }
+        }
+        .sheet(isPresented: $isShowingWidgetGuide, onDismiss: {
+            hasSeenWidgetSetupGuide = true
+        }) {
+            WidgetSetupGuideView()
+        }
         .onReceive(NotificationCenter.default.publisher(for: UIApplication.willEnterForegroundNotification)) { _ in
             loadHistory()
         }
@@ -143,5 +172,4 @@ struct ContentView: View {
         coinSide = sharedDefaults?.string(forKey: "coinSide") ?? "HEADS"
     }
 }
-
 

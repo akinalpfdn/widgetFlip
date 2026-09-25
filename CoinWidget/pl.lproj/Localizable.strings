@@ -1,0 +1,6 @@
+/* Widget */
+"HEADS" = "RESZKA";
+"TAILS" = "ORZEŁ";
+"FLIP" = "RZUĆ";
+"Flip Coin" = "Orzeł czy reszka";
+"Tap to flip the coin." = "Stuknij, aby rzucić monetą.";

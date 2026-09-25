@@ -1,0 +1,25 @@
+/* Coin flipping */
+"HEADS" = "KRONA";
+"TAILS" = "KLAVE";
+"FLIP" = "SINGLA";
+"RECENT FLIPS" = "SENASTE KAST";
+
+/* Widget setup guide */
+"How to add a widget" = "Så lägger du till en widget";
+"Close" = "Stäng";
+"Got it" = "Jag förstår";
+"On your Home Screen, touch and hold the Widget Flip icon. Choose a widget size at the top of the menu." = "Håll fingret på Widget Flip-symbolen på hemskärmen. Välj en widgetstorlek högst upp i menyn.";
+"Edit Home Screen" = "Ändra hemskärmen";
+"Remove App" = "Ta bort app";
+
+"Other method" = "Annat sätt";
+"Next" = "Nästa";
+"Back" = "Tillbaka";
+"Go to your Home Screen. Hold an empty area until the app icons start to jiggle." = "Gå till hemskärmen. Håll fingret på en tom yta tills symbolerna börjar vicka.";
+"Tap Edit, then Add Widget. Search for Widget Flip and select it." = "Tryck på ”Ändra” och sedan på ”Lägg till widget”. Sök efter Widget Flip och välj den.";
+"Swipe to choose a size. Tap Add Widget, then Done. Tap the widget to flip a coin." = "Svep för att välja en storlek. Tryck på ”Lägg till widget” och sedan på ”Klar”. Tryck på widgeten för att singla slant.";
+"Edit" = "Ändra";
+"Touch & hold" = "Håll ned";
+"Edit → Add Widget" = "Ändra → Lägg till widget";
+"Add Widget → Done" = "Lägg till widget → Klar";
+"Step %lld of 3" = "Steg %lld av 3";

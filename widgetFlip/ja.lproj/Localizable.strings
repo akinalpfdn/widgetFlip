@@ -1,0 +1,25 @@
+/* Coin flipping */
+"HEADS" = "表";
+"TAILS" = "裏";
+"FLIP" = "トス";
+"RECENT FLIPS" = "最近の結果";
+
+/* Widget setup guide */
+"How to add a widget" = "ウィジェットの追加方法";
+"Close" = "閉じる";
+"Got it" = "OK";
+"On your Home Screen, touch and hold the Widget Flip icon. Choose a widget size at the top of the menu." = "ホーム画面でWidget Flipのアイコンを長押しします。メニューの上部でウィジェットのサイズを選びます。";
+"Edit Home Screen" = "ホーム画面を編集";
+"Remove App" = "アプリを削除";
+
+"Other method" = "別の方法";
+"Next" = "次へ";
+"Back" = "戻る";
+"Go to your Home Screen. Hold an empty area until the app icons start to jiggle." = "ホーム画面に移動します。アイコンが揺れ始めるまで、何もない場所を長押しします。";
+"Tap Edit, then Add Widget. Search for Widget Flip and select it." = "「編集」→「ウィジェットを追加」をタップします。Widget Flipを検索して選択します。";
+"Swipe to choose a size. Tap Add Widget, then Done. Tap the widget to flip a coin." = "スワイプしてサイズを選び、「ウィジェットを追加」→「完了」をタップします。ウィジェットをタップするとコインを投げられます。";
+"Edit" = "編集";
+"Touch & hold" = "長押し";
+"Edit → Add Widget" = "編集 → ウィジェットを追加";
+"Add Widget → Done" = "ウィジェットを追加 → 完了";
+"Step %lld of 3" = "ステップ %lld/3";

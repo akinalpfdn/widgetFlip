@@ -1,0 +1,25 @@
+/* Coin flipping */
+"HEADS" = "РЕШКА";
+"TAILS" = "ОРЁЛ";
+"FLIP" = "БРОСИТЬ";
+"RECENT FLIPS" = "ПОСЛЕДНИЕ БРОСКИ";
+
+/* Widget setup guide */
+"How to add a widget" = "Как добавить виджет";
+"Close" = "Закрыть";
+"Got it" = "Понятно";
+"On your Home Screen, touch and hold the Widget Flip icon. Choose a widget size at the top of the menu." = "На экране «Домой» нажмите и удерживайте значок Widget Flip. Выберите размер виджета в верхней части меню.";
+"Edit Home Screen" = "Изменить экран «Домой»";
+"Remove App" = "Удалить приложение";
+
+"Other method" = "Другой способ";
+"Next" = "Далее";
+"Back" = "Назад";
+"Go to your Home Screen. Hold an empty area until the app icons start to jiggle." = "Перейдите на экран «Домой». Нажмите и удерживайте пустое место, пока значки не начнут покачиваться.";
+"Tap Edit, then Add Widget. Search for Widget Flip and select it." = "Коснитесь «+», затем «Добавить виджет». Найдите Widget Flip и выберите его.";
+"Swipe to choose a size. Tap Add Widget, then Done. Tap the widget to flip a coin." = "Смахните, чтобы выбрать размер. Коснитесь «Добавить виджет», затем «Готово». Коснитесь виджета, чтобы подбросить монетку.";
+"Edit" = "+";
+"Touch & hold" = "Нажмите и удерживайте";
+"Edit → Add Widget" = "+ → Добавить виджет";
+"Add Widget → Done" = "Добавить виджет → Готово";
+"Step %lld of 3" = "Шаг %lld из 3";

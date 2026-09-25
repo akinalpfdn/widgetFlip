@@ -1,0 +1,25 @@
+/* Coin flipping */
+"HEADS" = "NGỬA";
+"TAILS" = "SẤP";
+"FLIP" = "TUNG";
+"RECENT FLIPS" = "LẦN TUNG GẦN ĐÂY";
+
+/* Widget setup guide */
+"How to add a widget" = "Cách thêm tiện ích";
+"Close" = "Đóng";
+"Got it" = "Đã hiểu";
+"On your Home Screen, touch and hold the Widget Flip icon. Choose a widget size at the top of the menu." = "Trên Màn hình chính, chạm và giữ biểu tượng Widget Flip. Chọn kích thước tiện ích ở đầu menu.";
+"Edit Home Screen" = "Sửa Màn hình chính";
+"Remove App" = "Xóa ứng dụng";
+
+"Other method" = "Cách khác";
+"Next" = "Tiếp";
+"Back" = "Quay lại";
+"Go to your Home Screen. Hold an empty area until the app icons start to jiggle." = "Đi đến Màn hình chính. Chạm và giữ vào vùng trống cho đến khi các biểu tượng bắt đầu rung.";
+"Tap Edit, then Add Widget. Search for Widget Flip and select it." = "Chạm vào “Sửa”, sau đó chạm vào “Thêm tiện ích”. Tìm kiếm Widget Flip và chọn ứng dụng.";
+"Swipe to choose a size. Tap Add Widget, then Done. Tap the widget to flip a coin." = "Vuốt để chọn kích thước. Chạm vào “Thêm Tiện ích”, sau đó chạm vào “Xong”. Chạm vào tiện ích để tung đồng xu.";
+"Edit" = "Sửa";
+"Touch & hold" = "Chạm và giữ";
+"Edit → Add Widget" = "Sửa → Thêm tiện ích";
+"Add Widget → Done" = "Thêm Tiện ích → Xong";
+"Step %lld of 3" = "Bước %lld/3";

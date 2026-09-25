@@ -1,0 +1,6 @@
+/* Widget */
+"HEADS" = "SOL";
+"TAILS" = "ÁGUILA";
+"FLIP" = "LANZAR";
+"Flip Coin" = "Águila o sol";
+"Tap to flip the coin." = "Toca para echar un volado.";

@@ -1,0 +1,25 @@
+/* Coin flipping */
+"HEADS" = "KOP";
+"TAILS" = "MUNT";
+"FLIP" = "GOOIEN";
+"RECENT FLIPS" = "LAATSTE WORPEN";
+
+/* Widget setup guide */
+"How to add a widget" = "Een widget toevoegen";
+"Close" = "Sluit";
+"Got it" = "Begrepen";
+"On your Home Screen, touch and hold the Widget Flip icon. Choose a widget size at the top of the menu." = "Houd op het beginscherm het Widget Flip-symbool ingedrukt. Kies bovenaan het menu een widgetformaat.";
+"Edit Home Screen" = "Wijzig beginscherm";
+"Remove App" = "Verwijder app";
+
+"Other method" = "Andere methode";
+"Next" = "Volgende";
+"Back" = "Terug";
+"Go to your Home Screen. Hold an empty area until the app icons start to jiggle." = "Ga naar het beginscherm. Houd een lege plek ingedrukt totdat de symbolen gaan wiebelen.";
+"Tap Edit, then Add Widget. Search for Widget Flip and select it." = "Tik op ‘Wijzig’ en vervolgens op ‘Voeg widget toe’. Zoek naar Widget Flip en selecteer het.";
+"Swipe to choose a size. Tap Add Widget, then Done. Tap the widget to flip a coin." = "Veeg om een formaat te kiezen. Tik op ‘Voeg widget toe’ en vervolgens op ‘Gereed’. Tik op de widget om een munt op te gooien.";
+"Edit" = "Wijzig";
+"Touch & hold" = "Houd ingedrukt";
+"Edit → Add Widget" = "Wijzig → Voeg widget toe";
+"Add Widget → Done" = "Voeg widget toe → Gereed";
+"Step %lld of 3" = "Stap %lld van 3";

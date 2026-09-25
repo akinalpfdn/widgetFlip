@@ -1,0 +1,25 @@
+/* Coin flipping */
+"HEADS" = "HEADS";
+"TAILS" = "TAILS";
+"FLIP" = "FLIP";
+"RECENT FLIPS" = "RECENT FLIPS";
+
+/* Widget setup guide */
+"How to add a widget" = "How to add a widget";
+"Close" = "Close";
+"Got it" = "Got it";
+"On your Home Screen, touch and hold the Widget Flip icon. Choose a widget size at the top of the menu." = "On your Home Screen, touch and hold the Widget Flip icon. Choose a widget size at the top of the menu.";
+"Edit Home Screen" = "Edit Home Screen";
+"Remove App" = "Remove App";
+
+"Other method" = "Other method";
+"Next" = "Next";
+"Back" = "Back";
+"Go to your Home Screen. Hold an empty area until the app icons start to jiggle." = "Go to your Home Screen. Hold an empty area until the app icons start to jiggle.";
+"Tap Edit, then Add Widget. Search for Widget Flip and select it." = "Tap Edit, then Add Widget. Search for Widget Flip and select it.";
+"Swipe to choose a size. Tap Add Widget, then Done. Tap the widget to flip a coin." = "Swipe to choose a size. Tap Add Widget, then Done. Tap the widget to flip a coin.";
+"Edit" = "Edit";
+"Touch & hold" = "Touch & hold";
+"Edit → Add Widget" = "Edit → Add Widget";
+"Add Widget → Done" = "Add Widget → Done";
+"Step %lld of 3" = "Step %lld of 3";

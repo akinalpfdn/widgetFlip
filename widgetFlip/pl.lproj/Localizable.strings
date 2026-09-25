@@ -1,0 +1,25 @@
+/* Coin flipping */
+"HEADS" = "RESZKA";
+"TAILS" = "ORZEŁ";
+"FLIP" = "RZUĆ";
+"RECENT FLIPS" = "OSTATNIE RZUTY";
+
+/* Widget setup guide */
+"How to add a widget" = "Jak dodać widżet";
+"Close" = "Zamknij";
+"Got it" = "Rozumiem";
+"On your Home Screen, touch and hold the Widget Flip icon. Choose a widget size at the top of the menu." = "Na ekranie głównym dotknij ikony Widget Flip i przytrzymaj ją. Wybierz rozmiar widżetu u góry menu.";
+"Edit Home Screen" = "Edytuj ekran główny";
+"Remove App" = "Usuń aplikację";
+
+"Other method" = "Inny sposób";
+"Next" = "Dalej";
+"Back" = "Wstecz";
+"Go to your Home Screen. Hold an empty area until the app icons start to jiggle." = "Przejdź do ekranu głównego. Przytrzymaj puste miejsce, aż ikony zaczną się poruszać.";
+"Tap Edit, then Add Widget. Search for Widget Flip and select it." = "Stuknij w „Edytuj”, a następnie w „Dodaj widżet”. Wyszukaj Widget Flip i wybierz go.";
+"Swipe to choose a size. Tap Add Widget, then Done. Tap the widget to flip a coin." = "Przesuń, aby wybrać rozmiar. Stuknij w „Dodaj widżet”, a następnie w „Gotowe”. Stuknij widżet, aby rzucić monetą.";
+"Edit" = "Edytuj";
+"Touch & hold" = "Dotknij i przytrzymaj";
+"Edit → Add Widget" = "Edytuj → Dodaj widżet";
+"Add Widget → Done" = "Dodaj widżet → Gotowe";
+"Step %lld of 3" = "Krok %lld z 3";

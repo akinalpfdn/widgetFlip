@@ -1,0 +1,6 @@
+/* Widget */
+"HEADS" = "正面";
+"TAILS" = "反面";
+"FLIP" = "抛硬币";
+"Flip Coin" = "抛硬币";
+"Tap to flip the coin." = "轻点即可抛硬币。";

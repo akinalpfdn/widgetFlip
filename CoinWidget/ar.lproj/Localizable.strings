@@ -1,0 +1,6 @@
+/* Widget */
+"HEADS" = "صورة";
+"TAILS" = "كتابة";
+"FLIP" = "ارمِ";
+"Flip Coin" = "رمي العملة";
+"Tap to flip the coin." = "المس لرمي العملة.";
