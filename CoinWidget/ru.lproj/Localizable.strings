@@ -1,6 +1,8 @@
 /* Widget */
 "HEADS" = "РЕШКА";
 "TAILS" = "ОРЁЛ";
+"HeadsImage" = "Решка";
+"TailsImage" = "Орёл";
 "FLIP" = "БРОСИТЬ";
 "Flip Coin" = "Орёл или решка";
 "Tap to flip the coin." = "Коснитесь, чтобы подбросить монетку.";

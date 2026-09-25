@@ -1,6 +1,8 @@
 /* Widget */
 "HEADS" = "KOPF";
 "TAILS" = "ZAHL";
+"HeadsImage" = "Kopf";
+"TailsImage" = "Zahl";
 "FLIP" = "WERFEN";
 "Flip Coin" = "Kopf oder Zahl";
 "Tap to flip the coin." = "Tippe, um die Münze zu werfen.";

@@ -1,6 +1,8 @@
 /* Coin flipping */
 "HEADS" = "صورة";
 "TAILS" = "كتابة";
+"HeadsImage" = "صورة";
+"TailsImage" = "كتابة";
 "FLIP" = "ارمِ";
 "RECENT FLIPS" = "آخر الرميات";
 

@@ -1,6 +1,8 @@
 /* Coin flipping */
 "HEADS" = "表";
 "TAILS" = "裏";
+"HeadsImage" = "表";
+"TailsImage" = "裏";
 "FLIP" = "トス";
 "RECENT FLIPS" = "最近の結果";
 

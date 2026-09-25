@@ -1,6 +1,8 @@
 /* Coin flipping */
 "HEADS" = "正面";
 "TAILS" = "反面";
+"HeadsImage" = "正面";
+"TailsImage" = "反面";
 "FLIP" = "抛硬币";
 "RECENT FLIPS" = "最近结果";
 

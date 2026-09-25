@@ -1,6 +1,8 @@
 /* Widget */
 "HEADS" = "表";
 "TAILS" = "裏";
+"HeadsImage" = "表";
+"TailsImage" = "裏";
 "FLIP" = "トス";
 "Flip Coin" = "コイントス";
 "Tap to flip the coin." = "タップしてコインを投げる";

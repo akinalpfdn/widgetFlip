@@ -1,6 +1,8 @@
 /* Coin flipping */
 "HEADS" = "KOP";
 "TAILS" = "MUNT";
+"HeadsImage" = "Kop";
+"TailsImage" = "Munt";
 "FLIP" = "GOOIEN";
 "RECENT FLIPS" = "LAATSTE WORPEN";
 

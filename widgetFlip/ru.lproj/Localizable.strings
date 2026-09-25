@@ -1,6 +1,8 @@
 /* Coin flipping */
 "HEADS" = "РЕШКА";
 "TAILS" = "ОРЁЛ";
+"HeadsImage" = "Решка";
+"TailsImage" = "Орёл";
 "FLIP" = "БРОСИТЬ";
 "RECENT FLIPS" = "ПОСЛЕДНИЕ БРОСКИ";
 

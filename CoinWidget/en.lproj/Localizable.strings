@@ -1,6 +1,8 @@
 /* Widget */
 "HEADS" = "HEADS";
 "TAILS" = "TAILS";
+"HeadsImage" = "Heads";
+"TailsImage" = "Tails";
 "FLIP" = "FLIP";
 "Flip Coin" = "Flip Coin";
 "Tap to flip the coin." = "Tap to flip the coin.";

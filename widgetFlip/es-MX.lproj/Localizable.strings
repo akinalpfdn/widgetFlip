@@ -1,6 +1,8 @@
 /* Coin flipping */
 "HEADS" = "SOL";
 "TAILS" = "ÁGUILA";
+"HeadsImage" = "Sol";
+"TailsImage" = "Águila";
 "FLIP" = "LANZAR";
 "RECENT FLIPS" = "ÚLTIMOS VOLADOS";
 

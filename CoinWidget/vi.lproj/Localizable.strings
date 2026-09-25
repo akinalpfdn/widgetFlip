@@ -1,6 +1,8 @@
 /* Widget */
 "HEADS" = "NGỬA";
 "TAILS" = "SẤP";
+"HeadsImage" = "Ngửa";
+"TailsImage" = "Sấp";
 "FLIP" = "TUNG";
 "Flip Coin" = "Tung đồng xu";
 "Tap to flip the coin." = "Chạm để tung đồng xu.";

@@ -1,6 +1,9 @@
 /* English */
-"HEADS" = "YAZI";
-"TAILS" = "TURA";
+"HEADS" = "TURA";
+"TAILS" = "YAZI";
+"FLIP" = "ÇEVİR";
+"HeadsImage" = "Tura";
+"TailsImage" = "Yazı";
 "Flip Coin" = "Yazı Tura";
 "Tap to flip the coin." = "Parayı çevirmek için dokun.";
 "Start Timer" = "Zamanlayıcıyı Başlat";

@@ -1,6 +1,8 @@
 /* Widget */
 "HEADS" = "正面";
 "TAILS" = "反面";
+"HeadsImage" = "正面";
+"TailsImage" = "反面";
 "FLIP" = "擲硬幣";
 "Flip Coin" = "擲硬幣";
 "Tap to flip the coin." = "點一下即可擲硬幣。";

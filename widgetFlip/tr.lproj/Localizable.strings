@@ -1,6 +1,8 @@
 /* English */
-"HEADS" = "YAZI";
-"TAILS" = "TURA";
+"HEADS" = "TURA";
+"TAILS" = "YAZI";
+"HeadsImage" = "Tura";
+"TailsImage" = "Yazı";
 "Flip Coin" = "Yazı Tura";
 "Tap to flip the coin." = "Parayı çevirmek için dokun.";
 "RECENT FLIPS" = "SON ÇEVİRMELER";
@@ -21,16 +23,16 @@
 "Got it" = "Anladım";
 "On your Home Screen, touch and hold the Widget Flip icon. Choose a widget size at the top of the menu." = "Ana ekranda Widget Flip simgesine basılı tut. Açılan menünün üstünden bir widget boyutu seç.";
 "Edit Home Screen" = "Ana Ekranı Düzenle";
-"Remove App" = "Uygulamayı Sil";
+"Remove App" = "Uygulamayı Kaldır";
 
 "Other method" = "Diğer yöntem";
 "Next" = "Devam";
 "Back" = "Geri";
 "Go to your Home Screen. Hold an empty area until the app icons start to jiggle." = "Ana ekranına dön. Uygulama simgeleri titreyene kadar boş bir alana basılı tut.";
-"Tap Edit, then Add Widget. Search for Widget Flip and select it." = "Düzenle’ye, ardından Araç Takımı Ekle’ye dokun. Widget Flip’i arat ve seç.";
+"Tap Edit, then Add Widget. Search for Widget Flip and select it." = "+ düğmesine, ardından Araç Takımı Ekle’ye dokun. Widget Flip’i arat ve seç.";
 "Swipe to choose a size. Tap Add Widget, then Done. Tap the widget to flip a coin." = "Kaydırarak boyutunu seç. Araç Takımı Ekle’ye, ardından Bitti’ye dokun. Yazı tura atmak için widget’a dokun.";
-"Edit" = "Düzenle";
+"Edit" = "+";
 "Touch & hold" = "Basılı tut";
-"Edit → Add Widget" = "Düzenle → Araç Takımı Ekle";
+"Edit → Add Widget" = "+ → Araç Takımı Ekle";
 "Add Widget → Done" = "Araç Takımı Ekle → Bitti";
 "Step %lld of 3" = "Adım %lld / 3";

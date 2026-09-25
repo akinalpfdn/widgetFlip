@@ -1,6 +1,8 @@
 /* Coin flipping */
 "HEADS" = "TESTA";
 "TAILS" = "CROCE";
+"HeadsImage" = "Testa";
+"TailsImage" = "Croce";
 "FLIP" = "LANCIA";
 "RECENT FLIPS" = "ULTIMI LANCI";
 

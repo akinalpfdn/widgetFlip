@@ -1,6 +1,8 @@
 /* Widget */
 "HEADS" = "SOL";
 "TAILS" = "ÁGUILA";
+"HeadsImage" = "Sol";
+"TailsImage" = "Águila";
 "FLIP" = "LANZAR";
 "Flip Coin" = "Águila o sol";
 "Tap to flip the coin." = "Toca para echar un volado.";

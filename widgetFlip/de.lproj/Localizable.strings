@@ -1,6 +1,8 @@
 /* Coin flipping */
 "HEADS" = "KOPF";
 "TAILS" = "ZAHL";
+"HeadsImage" = "Kopf";
+"TailsImage" = "Zahl";
 "FLIP" = "WERFEN";
 "RECENT FLIPS" = "LETZTE WÜRFE";
 

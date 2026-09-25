@@ -1,6 +1,8 @@
 /* Coin flipping */
 "HEADS" = "NGỬA";
 "TAILS" = "SẤP";
+"HeadsImage" = "Ngửa";
+"TailsImage" = "Sấp";
 "FLIP" = "TUNG";
 "RECENT FLIPS" = "LẦN TUNG GẦN ĐÂY";
 

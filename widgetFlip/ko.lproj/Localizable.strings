@@ -1,6 +1,8 @@
 /* Coin flipping */
 "HEADS" = "앞면";
 "TAILS" = "뒷면";
+"HeadsImage" = "앞면";
+"TailsImage" = "뒷면";
 "FLIP" = "던지기";
 "RECENT FLIPS" = "최근 결과";
 

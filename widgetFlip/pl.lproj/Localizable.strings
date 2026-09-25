@@ -1,6 +1,8 @@
 /* Coin flipping */
 "HEADS" = "RESZKA";
 "TAILS" = "ORZEŁ";
+"HeadsImage" = "Reszka";
+"TailsImage" = "Orzeł";
 "FLIP" = "RZUĆ";
 "RECENT FLIPS" = "OSTATNIE RZUTY";
 

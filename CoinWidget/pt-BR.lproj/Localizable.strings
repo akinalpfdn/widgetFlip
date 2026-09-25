@@ -1,6 +1,8 @@
 /* Widget */
 "HEADS" = "CARA";
 "TAILS" = "COROA";
+"HeadsImage" = "Cara";
+"TailsImage" = "Coroa";
 "FLIP" = "JOGAR";
 "Flip Coin" = "Cara ou coroa";
 "Tap to flip the coin." = "Toque para jogar a moeda.";

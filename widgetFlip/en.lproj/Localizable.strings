@@ -1,6 +1,8 @@
 /* Coin flipping */
 "HEADS" = "HEADS";
 "TAILS" = "TAILS";
+"HeadsImage" = "Heads";
+"TailsImage" = "Tails";
 "FLIP" = "FLIP";
 "RECENT FLIPS" = "RECENT FLIPS";
 

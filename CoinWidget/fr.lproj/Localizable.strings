@@ -1,6 +1,8 @@
 /* Widget */
 "HEADS" = "FACE";
 "TAILS" = "PILE";
+"HeadsImage" = "Face";
+"TailsImage" = "Pile";
 "FLIP" = "LANCER";
 "Flip Coin" = "Pile ou face";
 "Tap to flip the coin." = "Touchez pour lancer la pièce.";

@@ -1,6 +1,8 @@
 /* Coin flipping */
 "HEADS" = "CARA";
 "TAILS" = "COROA";
+"HeadsImage" = "Cara";
+"TailsImage" = "Coroa";
 "FLIP" = "JOGAR";
 "RECENT FLIPS" = "ÚLTIMAS JOGADAS";
 

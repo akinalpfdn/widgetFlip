@@ -38,8 +38,8 @@ struct ContentView: View {
         ZStack {
             darkGradient.ignoresSafeArea()
             
-            Image("WidgetBackground")
-                .resizable() 
+            Image(decorative: "WidgetBackground")
+                .resizable()
                 .ignoresSafeArea()
             
             VStack {
@@ -88,7 +88,7 @@ struct ContentView: View {
                         HStack(spacing: 15) {
                             ForEach(history, id: \.self) { item in
                                 VStack {
-                                    Image(item.contains("HEADS") ? "HeadsImage" : "TailsImage")
+                                    Image(decorative: item.contains("HEADS") ? "HeadsImage" : "TailsImage")
                                         .resizable()
                                         .scaledToFit()
                                         .frame(width: 24, height: 24)
