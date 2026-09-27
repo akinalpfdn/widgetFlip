@@ -43,8 +43,8 @@ struct ContentView: View {
         ZStack {
             darkGradient.ignoresSafeArea()
             
-            Image(decorative: "WidgetBackground")
-                .resizable()
+            // Portrait image fixed to the device; see FixedBackground for how it stays still during rotation.
+            FixedBackground(imageName: "AppBackground")
                 .ignoresSafeArea()
             
             VStack {
