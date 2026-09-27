@@ -1,0 +1,105 @@
+{
+  "_format": "h1: \\n = line break on every device, ¦ = line break on iPhone only (space on iPad), {…} = gold highlight.",
+  "tr": {
+    "lang": "tr", "dir": "ltr", "script": "latin",
+    "home": { "h1": "Yazı tura at.\n{Ana ekranında.}", "p": "Hiçbir uygulamayı açmadan anında yazı tura.", "tap": "Dokun ve at" },
+    "sizes": { "h1": "Widget boyutunu\n{sen seç.}", "p": "Ana ekranına tam uyar.", "large": "Büyük", "small": "Küçük", "medium": "Orta" },
+    "history": { "h1": "Son atışların\n{hep elinde.}", "p": "Son yazı ve turalarını gör.", "label": "SON ÇEVİRMELER" }
+  },
+  "es-MX": {
+    "lang": "es-MX", "dir": "ltr", "script": "latin",
+    "home": { "h1": "Echa un volado.\nEn tu¦{pantalla de inicio.}", "p": "Águila o sol al instante, sin abrir ninguna app.", "tap": "Toca y lanza" },
+    "sizes": { "h1": "Elige el\n{tamaño del widget.}", "p": "Hecho a la medida de tu pantalla de inicio.", "large": "Grande", "small": "Pequeño", "medium": "Mediano" },
+    "history": { "h1": "Guarda tus\n{últimos volados.}", "p": "Mira tus últimos resultados de águila o sol.", "label": "ÚLTIMOS VOLADOS" }
+  },
+  "pt-BR": {
+    "lang": "pt-BR", "dir": "ltr", "script": "latin",
+    "home": { "h1": "Jogue a moeda.\nNa sua¦{Tela de Início.}", "p": "Cara ou coroa na hora, sem abrir nenhum app.", "tap": "Toque e jogue" },
+    "sizes": { "h1": "Escolha o\n{tamanho do widget.}", "p": "Feito para a sua Tela de Início.", "large": "Grande", "small": "Pequeno", "medium": "Médio" },
+    "history": { "h1": "Veja suas\n{últimas jogadas.}", "p": "Confira suas últimas caras e coroas.", "label": "ÚLTIMAS JOGADAS" }
+  },
+  "de": {
+    "lang": "de", "dir": "ltr", "script": "latin",
+    "home": { "h1": "Wirf eine Münze.\nAuf deinem\n{Home-Bildschirm.}", "p": "Sofort Kopf oder Zahl – ohne eine App zu öffnen.", "tap": "Einfach tippen" },
+    "sizes": { "h1": "Wähle deine\n{Widget-Größe.}", "p": "Passt perfekt auf deinen Home-Bildschirm.", "large": "Groß", "small": "Klein", "medium": "Mittel" },
+    "history": { "h1": "Deine letzten\n{Würfe im Blick.}", "p": "Sieh dir deine letzten Kopf- und Zahl-Ergebnisse an.", "label": "LETZTE WÜRFE" }
+  },
+  "fr": {
+    "lang": "fr", "dir": "ltr", "script": "latin",
+    "home": { "h1": "Lancez une pièce.\nSur votre¦{écran d’accueil.}", "p": "Pile ou face en un instant, sans ouvrir d’app.", "tap": "Touchez, lancez" },
+    "sizes": { "h1": "Choisissez la\n{taille du widget.}", "p": "Pensé pour votre écran d’accueil.", "large": "Grand", "small": "Petit", "medium": "Moyen" },
+    "history": { "h1": "Gardez vos\n{derniers lancers.}", "p": "Retrouvez vos derniers pile ou face.", "label": "DERNIERS LANCERS" }
+  },
+  "ja": {
+    "lang": "ja", "dir": "ltr", "script": "cjk",
+    "home": { "h1": "コイントスを、\n{ホーム画面で。}", "p": "アプリを開かずに、すぐに表か裏か。", "tap": "タップで投げる" },
+    "sizes": { "h1": "ウィジェットの\n{サイズを選べる。}", "p": "あなたのホーム画面にぴったり。", "large": "大", "small": "小", "medium": "中" },
+    "history": { "h1": "最近の結果を\n{いつでも確認。}", "p": "最近の表と裏をチェック。", "label": "最近の結果" }
+  },
+  "zh-Hant": {
+    "lang": "zh-Hant", "dir": "ltr", "script": "cjk",
+    "home": { "h1": "擲硬幣\n{就在主畫面}", "p": "無需打開 App，立即擲出正反面", "tap": "點一下就擲" },
+    "sizes": { "h1": "選擇你的\n{小工具尺寸}", "p": "完美適合你的主畫面", "large": "大型", "small": "小型", "medium": "中型" },
+    "history": { "h1": "保留你的\n{最近結果}", "p": "查看最近的正面與反面", "label": "最近結果" }
+  },
+  "ko": {
+    "lang": "ko", "dir": "ltr", "script": "cjk",
+    "home": { "h1": "동전 던지기를\n{홈 화면에서.}", "p": "앱을 열지 않고 바로 앞면 뒷면을 확인하세요.", "tap": "탭하여 던지기" },
+    "sizes": { "h1": "원하는 크기의\n{위젯을 선택.}", "p": "내 홈 화면에 딱 맞게.", "large": "대형", "small": "소형", "medium": "중형" },
+    "history": { "h1": "최근 결과를\n{한눈에.}", "p": "최근 앞면과 뒷면을 확인하세요.", "label": "최근 결과" }
+  },
+  "ru": {
+    "lang": "ru", "dir": "ltr", "script": "latin",
+    "home": { "h1": "Подбросьте монетку\n{на экране «Домой».}", "p": "Орёл или решка — сразу, без открытия приложения.", "tap": "Коснитесь" },
+    "sizes": { "h1": "Выберите\n{размер виджета.}", "p": "Идеально для экрана «Домой».", "large": "Большой", "small": "Маленький", "medium": "Средний" },
+    "history": { "h1": "Последние\n{броски под рукой.}", "p": "Смотрите свои последние орлы и решки.", "label": "ПОСЛЕДНИЕ БРОСКИ" }
+  },
+  "it": {
+    "lang": "it", "dir": "ltr", "script": "latin",
+    "home": { "h1": "Lancia una moneta.\nDalla tua¦{schermata Home.}", "p": "Testa o croce all’istante, senza aprire nessuna app.", "tap": "Tocca e lancia" },
+    "sizes": { "h1": "Scegli la\n{dimensione del widget.}", "p": "Su misura per la tua schermata Home.", "large": "Grande", "small": "Piccolo", "medium": "Medio" },
+    "history": { "h1": "Tieni traccia\n{degli ultimi lanci.}", "p": "Rivedi i tuoi ultimi risultati di testa o croce.", "label": "ULTIMI LANCI" }
+  },
+  "es-ES": {
+    "lang": "es-ES", "dir": "ltr", "script": "latin",
+    "home": { "h1": "Lanza una moneda.\nEn tu¦{pantalla de inicio.}", "p": "Cara o cruz al instante, sin abrir ninguna app.", "tap": "Toca y lanza" },
+    "sizes": { "h1": "Elige el\n{tamaño del widget.}", "p": "Hecho a medida para tu pantalla de inicio.", "large": "Grande", "small": "Pequeño", "medium": "Mediano" },
+    "history": { "h1": "Guarda tus\n{últimos lanzamientos.}", "p": "Consulta tus últimas caras y cruces.", "label": "ÚLTIMOS LANZAMIENTOS" }
+  },
+  "zh-Hans": {
+    "lang": "zh-Hans", "dir": "ltr", "script": "cjk",
+    "home": { "h1": "抛硬币\n{就在主屏幕}", "p": "无需打开 App，立即抛出正反面", "tap": "轻点即可抛" },
+    "sizes": { "h1": "选择你的\n{小组件尺寸}", "p": "完美适配你的主屏幕", "large": "大号", "small": "小号", "medium": "中号" },
+    "history": { "h1": "记录你的\n{最近结果}", "p": "查看最近的正面与反面", "label": "最近结果" }
+  },
+  "nl": {
+    "lang": "nl", "dir": "ltr", "script": "latin",
+    "home": { "h1": "Gooi een munt.\nOp je¦{beginscherm.}", "p": "Direct kop of munt, zonder een app te openen.", "tap": "Tik en gooi" },
+    "sizes": { "h1": "Kies je\n{widgetformaat.}", "p": "Past precies op je beginscherm.", "large": "Groot", "small": "Klein", "medium": "Middel" },
+    "history": { "h1": "Bewaar je\n{laatste worpen.}", "p": "Bekijk je laatste resultaten van kop of munt.", "label": "LAATSTE WORPEN" }
+  },
+  "ar": {
+    "lang": "ar", "dir": "rtl", "script": "arabic",
+    "home": { "h1": "ارمِ العملة\n{من شاشتك الرئيسية.}", "p": "صورة أو كتابة فورًا، دون فتح أي تطبيق.", "tap": "المس للرمي" },
+    "sizes": { "h1": "اختر\n{حجم الأداة.}", "p": "مصممة لتناسب شاشتك الرئيسية.", "large": "كبير", "small": "صغير", "medium": "متوسط" },
+    "history": { "h1": "احتفظ\n{بآخر رمياتك.}", "p": "شاهد آخر نتائج الصورة والكتابة.", "label": "آخر الرميات" }
+  },
+  "pl": {
+    "lang": "pl", "dir": "ltr", "script": "latin",
+    "home": { "h1": "Rzuć monetą\n{na ekranie głównym.}", "p": "Orzeł czy reszka od razu, bez otwierania aplikacji.", "tap": "Stuknij i rzuć" },
+    "sizes": { "h1": "Wybierz\n{rozmiar widżetu.}", "p": "Dopasowany do Twojego ekranu głównego.", "large": "Duży", "small": "Mały", "medium": "Średni" },
+    "history": { "h1": "Miej pod ręką\n{ostatnie rzuty.}", "p": "Zobacz swoje ostatnie orły i reszki.", "label": "OSTATNIE RZUTY" }
+  },
+  "sv": {
+    "lang": "sv", "dir": "ltr", "script": "latin",
+    "home": { "h1": "Singla slant.\nPå din¦{hemskärm.}", "p": "Krona eller klave direkt, utan att öppna någon app.", "tap": "Tryck och singla" },
+    "sizes": { "h1": "Välj din\n{widgetstorlek.}", "p": "Gjord för din hemskärm.", "large": "Stor", "small": "Liten", "medium": "Mellan" },
+    "history": { "h1": "Håll koll på\n{senaste kasten.}", "p": "Se dina senaste resultat av krona eller klave.", "label": "SENASTE KAST" }
+  },
+  "vi": {
+    "lang": "vi", "dir": "ltr", "script": "vi",
+    "home": { "h1": "Tung đồng xu.\nNgay trên¦{Màn hình chính.}", "p": "Sấp hay ngửa tức thì, không cần mở ứng dụng.", "tap": "Chạm để tung" },
+    "sizes": { "h1": "Chọn\n{kích thước tiện ích.}", "p": "Vừa vặn với Màn\u00a0hình\u00a0chính của bạn.", "large": "Lớn", "small": "Nhỏ", "medium": "Vừa" },
+    "history": { "h1": "Lưu lại\n{các lần tung gần đây.}", "p": "Xem kết quả sấp ngửa gần nhất.", "label": "LẦN TUNG GẦN ĐÂY" }
+  }
+}

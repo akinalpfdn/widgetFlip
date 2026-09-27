@@ -10,18 +10,18 @@
 "How to add a widget" = "如何添加小组件";
 "Close" = "关闭";
 "Got it" = "知道了";
-"On your Home Screen, touch and hold the Widget Flip icon. Choose a widget size at the top of the menu." = "在主屏幕上按住 Widget Flip 图标,然后在菜单顶部选择小组件尺寸。";
+"On your Home Screen, touch and hold the Widget Flip icon. Choose a widget size at the top of the menu." = "在主屏幕上按住 Widget Flip 图标，然后在菜单顶部选择小组件尺寸。";
 "Edit Home Screen" = "编辑主屏幕";
 "Remove App" = "移除App";
 
 "Other method" = "其他方法";
 "Next" = "下一步";
 "Back" = "返回";
-"Go to your Home Screen. Hold an empty area until the app icons start to jiggle." = "前往主屏幕,按住空白区域,直到 App 图标开始晃动。";
-"Tap Edit, then Add Widget. Search for Widget Flip and select it." = "轻点“编辑”,然后轻点“添加小组件”。搜索 Widget Flip 并选择它。";
-"Swipe to choose a size. Tap Add Widget, then Done. Tap the widget to flip a coin." = "滑动以选择尺寸,轻点“添加小组件”,然后轻点“完成”。轻点小组件即可抛硬币。";
+"Go to your Home Screen. Hold an empty area until the app icons start to jiggle." = "前往主屏幕，按住空白区域，直到 App 图标开始晃动。";
+"Tap Edit, then Add Widget. Search for Widget Flip and select it." = "轻点“编辑”，然后轻点“添加小组件”。搜索 Widget Flip 并选择它。";
+"Swipe to choose a size. Tap Add Widget, then Done. Tap the widget to flip a coin." = "滑动以选择尺寸，轻点“添加小组件”，然后轻点“完成”。轻点小组件即可抛硬币。";
 "Edit" = "编辑";
 "Touch & hold" = "按住";
 "Edit → Add Widget" = "编辑 → 添加小组件";
 "Add Widget → Done" = "添加小组件 → 完成";
-"Step %lld of 3" = "第 %lld 步,共 3 步";
+"Step %lld of 3" = "第 %lld 步，共 3 步";

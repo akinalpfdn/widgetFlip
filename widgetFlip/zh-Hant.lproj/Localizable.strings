@@ -10,18 +10,18 @@
 "How to add a widget" = "如何加入小工具";
 "Close" = "關閉";
 "Got it" = "知道了";
-"On your Home Screen, touch and hold the Widget Flip icon. Choose a widget size at the top of the menu." = "在主畫面上按住 Widget Flip 圖像,然後在選單上方選擇小工具尺寸。";
+"On your Home Screen, touch and hold the Widget Flip icon. Choose a widget size at the top of the menu." = "在主畫面上按住 Widget Flip 圖像，然後在選單上方選擇小工具尺寸。";
 "Edit Home Screen" = "編輯主畫面";
 "Remove App" = "移除App";
 
 "Other method" = "其他方式";
 "Next" = "下一步";
 "Back" = "返回";
-"Go to your Home Screen. Hold an empty area until the app icons start to jiggle." = "前往主畫面,按住空白區域,直到 App 圖像開始晃動。";
-"Tap Edit, then Add Widget. Search for Widget Flip and select it." = "點一下「編輯」,然後點一下「加入小工具」。搜尋 Widget Flip 並選擇它。";
-"Swipe to choose a size. Tap Add Widget, then Done. Tap the widget to flip a coin." = "滑動來選擇尺寸,點一下「加入小工具」,然後點一下「完成」。點一下小工具即可擲硬幣。";
+"Go to your Home Screen. Hold an empty area until the app icons start to jiggle." = "前往主畫面，按住空白區域，直到 App 圖像開始晃動。";
+"Tap Edit, then Add Widget. Search for Widget Flip and select it." = "點一下「編輯」，然後點一下「加入小工具」。搜尋 Widget Flip 並選擇它。";
+"Swipe to choose a size. Tap Add Widget, then Done. Tap the widget to flip a coin." = "滑動來選擇尺寸，點一下「加入小工具」，然後點一下「完成」。點一下小工具即可擲硬幣。";
 "Edit" = "編輯";
 "Touch & hold" = "按住";
 "Edit → Add Widget" = "編輯 → 加入小工具";
 "Add Widget → Done" = "加入小工具 → 完成";
-"Step %lld of 3" = "第 %lld 步,共 3 步";
+"Step %lld of 3" = "第 %lld 步，共 3 步";
