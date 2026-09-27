@@ -61,6 +61,16 @@ Key Features:
 Stop guessing. Start flipping. Download now and let fate decide!
 ```
 
+### What's New (1.1)
+
+```
+• Now available in 18 languages, with the local names for heads and tails
+• New step-by-step guide for adding the widget to your Home Screen
+• A fresh starfield background that stays put when you rotate your device
+• Enjoying the app? Tap the star to leave a review or share it with friends
+• Fixes for flip history and VoiceOver
+```
+
 ---
 
 ## Türkçe (tr)
@@ -81,4 +91,41 @@ Ana ekranda para at, karar ver
 
 ```
 yazıtura,madeni,çevir,atma,atış,verici,rastgele,seçim,şans,evet,hayır,kura,talih
+```
+
+### Promotional Text (90/170)
+
+```
+Ana ekranından anında yazı tura at! iOS için en güzel ve etkileşimli karar verme widget’ı.
+```
+
+### Description
+
+```
+Reklam yok. Abonelik yok. Uygulama içi satın alma yok. Takip yok.
+
+Kararlarını anında, doğrudan ana ekranından ver.
+
+Widget Flip, klasik yazı turayı modern ve etkileşimli bir widget ile iOS’a getiriyor. Uygulamayı açmana gerek yok, widget’a dokunman yeterli. Hızlı seçimler yapmak, tartışmaları çözmek ya da şansını denemek için ideal.
+
+Öne Çıkan Özellikler:
+
+• Etkileşimli Widget: Ana ekranında dokunarak yazı tura at. Uygulamayı açmaya gerek yok.
+• Farklı Boyutlar: Küçük, orta ve büyük widget’lar (iPad’de çok büyük).
+• Gerçek Rastgelelik: Her seferinde adil sonuçlar için gerçek bir rastgelelik algoritması kullanır.
+• Atış Geçmişi: Son atışlarını uygulamada gör.
+• Modern Tasarım: Akıcı 3D animasyon ve keyifli titreşimler.
+• Gizli ve Çevrimdışı: Hesap yok, veri toplama yok, internetsiz çalışır.
+
+Tahmin etmeyi bırak. Yazı tura at. Hemen indir, kararı şans versin!
+```
+
+### What's New (1.1)
+
+```
+• Artık 18 dilde, her dilde yazı turanın yerel adlarıyla
+• Widget’ı ana ekrana eklemek için adım adım rehber
+• Cihazı döndürdüğünde yerinde kalan yeni yıldızlı arka plan
+• Beğendin mi? Yıldıza dokunup yorum yazabilir ya da arkadaşlarınla paylaşabilirsin
+• Yazı ve tura etiketleri paranın yüzleriyle eşleşecek şekilde düzeltildi; atış geçmişi ve VoiceOver düzeltmeleri
 ```

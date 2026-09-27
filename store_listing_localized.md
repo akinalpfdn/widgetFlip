@@ -75,6 +75,15 @@ Funciones principales:
 Deja de adivinar. Empieza a lanzar. ¡Descárgala ahora y deja que el destino decida!
 ```
 
+**What's New (1.1)** (357/4000)
+```
+• Ahora en 18 idiomas, con el nombre local de cada lado de la moneda
+• Nueva guía paso a paso para agregar el widget a tu pantalla de inicio
+• Nuevo fondo de estrellas que se queda fijo al girar tu dispositivo
+• ¿Te gusta la app? Toca la estrella para escribir una reseña o compartirla con tus amigos
+• Correcciones en el historial de volados y en VoiceOver
+```
+
 ---
 
 ## 2. Portuguese (Brazil) (`pt-BR`)
@@ -117,6 +126,15 @@ Principais recursos:
 • Privado e offline: sem conta, sem coleta de dados, funciona sem internet.
 
 Pare de adivinhar. Comece a jogar. Baixe agora e deixe o destino decidir!
+```
+
+**What's New (1.1)** (336/4000)
+```
+• Agora em 18 idiomas, com os nomes locais de cara e coroa
+• Novo guia passo a passo para adicionar o widget à Tela de Início
+• Novo fundo estrelado que fica parado quando você gira o aparelho
+• Curtindo o app? Toque na estrela para deixar uma avaliação ou compartilhar com seus amigos
+• Correções no histórico de jogadas e no VoiceOver
 ```
 
 ---
@@ -163,6 +181,15 @@ Funktionen:
 Schluss mit Raten. Wirf die Münze. Jetzt laden und das Schicksal entscheiden lassen!
 ```
 
+**What's New (1.1)** (395/4000)
+```
+• Jetzt in 18 Sprachen – mit den landesüblichen Namen für Kopf und Zahl
+• Neue Schritt-für-Schritt-Anleitung zum Hinzufügen des Widgets zum Home-Bildschirm
+• Neuer Sternenhintergrund, der beim Drehen des Geräts an Ort und Stelle bleibt
+• Gefällt dir die App? Tippe auf den Stern, um eine Bewertung zu schreiben oder sie mit Freunden zu teilen
+• Fehlerbehebungen für den Wurfverlauf und VoiceOver
+```
+
 ---
 
 ## 4. French (`fr`)
@@ -207,6 +234,15 @@ Fonctionnalités :
 Arrêtez de deviner. Lancez la pièce. Téléchargez maintenant et laissez le destin décider !
 ```
 
+**What's New (1.1)** (379/4000)
+```
+• Désormais disponible en 18 langues, avec le nom local de chaque côté de la pièce
+• Nouveau guide pas à pas pour ajouter le widget à votre écran d’accueil
+• Nouveau fond étoilé qui reste immobile quand vous faites pivoter l’appareil
+• Vous aimez l’app ? Touchez l’étoile pour laisser un avis ou la partager avec vos amis
+• Corrections de l’historique des lancers et de VoiceOver
+```
+
 ---
 
 ## 5. Japanese (`ja`)
@@ -249,6 +285,15 @@ Widget Flipは、定番のコイントスをモダンでインタラクティブ
 • プライバシーとオフライン：アカウント不要、データ収集なし、インターネット不要。
 
 迷うのはもう終わり。コインを投げよう。今すぐダウンロードして、運命に任せよう！
+```
+
+**What's New (1.1)** (150/4000)
+```
+• 18言語に対応。各言語で表と裏の呼び方もローカライズ
+• ホーム画面にウィジェットを追加する手順ガイドを追加
+• 端末を回転しても動かない、新しい星空の背景
+• 気に入っていただけましたか？星をタップしてレビューを書いたり、友だちにシェアしたりできます
+• 履歴とVoiceOverの不具合を修正
 ```
 
 ---
@@ -297,6 +342,15 @@ Widget Flip 以現代、可互動的小工具，將經典的擲硬幣帶到 iOS�
 別再猶豫，開始擲硬幣吧。立即下載，讓命運來決定！
 ```
 
+**What's New (1.1)** (122/4000)
+```
+• 現已支援 18 種語言，並使用各地對正反面的慣用說法
+• 新增逐步教學，教你把小工具加入主畫面
+• 全新星空背景，旋轉裝置時保持不動
+• 喜歡這個 App 嗎？點一下星星即可撰寫評論或分享給朋友
+• 修正了紀錄與 VoiceOver 的問題
+```
+
 ---
 
 ## 7. Korean (`ko`)
@@ -339,6 +393,15 @@ Widget Flip은 클래식한 동전 던지기를 모던하고 인터랙티브한 
 • 개인정보 보호 및 오프라인: 계정 불필요, 데이터 수집 없음, 인터넷 없이 작동.
 
 고민은 그만. 동전을 던지세요. 지금 다운로드하고 운명에 맡기세요!
+```
+
+**What's New (1.1)** (158/4000)
+```
+• 이제 18개 언어 지원, 각 언어별 앞면·뒷면 명칭 적용
+• 홈 화면에 위젯을 추가하는 단계별 가이드 추가
+• 기기를 회전해도 그대로 유지되는 새로운 별빛 배경
+• 앱이 마음에 드시나요? 별을 탭해 리뷰를 남기거나 친구에게 공유하세요
+• 기록 및 VoiceOver 관련 문제 수정
 ```
 
 ---
@@ -387,6 +450,15 @@ Widget Flip переносит классическую игру «орёл ил
 Хватит гадать. Бросайте монетку. Скачайте сейчас и доверьтесь судьбе!
 ```
 
+**What's New (1.1)** (336/4000)
+```
+• Теперь на 18 языках — с привычными названиями сторон монеты
+• Новая пошаговая инструкция по добавлению виджета на экран «Домой»
+• Новый звёздный фон, который остаётся на месте при повороте устройства
+• Нравится приложение? Коснитесь звезды, чтобы оставить отзыв или поделиться им с друзьями
+• Исправления в истории бросков и VoiceOver
+```
+
 ---
 
 ## 9. Italian (`it`)
@@ -431,6 +503,15 @@ Funzioni principali:
 Basta indovinare. Lancia la moneta. Scaricala ora e lascia decidere al destino!
 ```
 
+**What's New (1.1)** (349/4000)
+```
+• Ora disponibile in 18 lingue, con i nomi locali di testa e croce
+• Nuova guida passo passo per aggiungere il widget alla schermata Home
+• Nuovo sfondo stellato che resta fermo quando ruoti il dispositivo
+• Ti piace l’app? Tocca la stella per lasciare una recensione o condividerla con gli amici
+• Correzioni alla cronologia dei lanci e a VoiceOver
+```
+
 ---
 
 ## 10. Spanish (Spain) (`es-ES`)
@@ -473,6 +554,15 @@ Funciones principales:
 • Privada y sin conexión: sin cuenta, sin recopilación de datos, funciona sin internet.
 
 Deja de adivinar. Empieza a lanzar. ¡Descárgala ya y deja que el destino decida!
+```
+
+**What's New (1.1)** (362/4000)
+```
+• Ahora en 18 idiomas, con el nombre local de cada cara de la moneda
+• Nueva guía paso a paso para añadir el widget a tu pantalla de inicio
+• Nuevo fondo de estrellas que permanece fijo al girar el dispositivo
+• ¿Te gusta la app? Toca la estrella para escribir una reseña o compartirla con tus amigos
+• Correcciones en el historial de lanzamientos y en VoiceOver
 ```
 
 ---
@@ -521,6 +611,15 @@ Widget Flip 以现代、可交互的小组件，把经典的抛硬币带到 iOS�
 别再犹豫，开始抛硬币吧。立即下载，让命运来决定！
 ```
 
+**What's New (1.1)** (124/4000)
+```
+• 现已支持 18 种语言，并使用各地对正反面的习惯叫法
+• 新增分步指南，教你把小组件添加到主屏幕
+• 全新星空背景，旋转设备时保持不动
+• 喜欢这个 App 吗？轻点星星即可撰写评论或分享给朋友
+• 修复了历史记录和 VoiceOver 的问题
+```
+
 ---
 
 ## 12. Dutch (`nl`)
@@ -563,6 +662,15 @@ Belangrijkste functies:
 • Privé en offline: geen account, geen gegevensverzameling, werkt zonder internet.
 
 Stop met raden. Begin met tossen. Download nu en laat het lot beslissen!
+```
+
+**What's New (1.1)** (361/4000)
+```
+• Nu beschikbaar in 18 talen, met de lokale namen voor kop en munt
+• Nieuwe stapsgewijze gids om de widget aan je beginscherm toe te voegen
+• Nieuwe sterrenachtergrond die stil blijft staan als je je apparaat draait
+• Vind je de app leuk? Tik op de ster om een recensie te schrijven of deel hem met vrienden
+• Verbeteringen voor de worpgeschiedenis en VoiceOver
 ```
 
 ---
@@ -611,6 +719,15 @@ Widget Flip: صورة أو كتابة
 توقف عن التخمين. ابدأ الرمي. نزّله الآن ودع القدر يقرر!
 ```
 
+**What's New (1.1)** (261/4000)
+```
+• متوفر الآن بـ 18 لغة، مع الأسماء المحلية لوجهي العملة
+• دليل جديد خطوة بخطوة لإضافة الأداة إلى الشاشة الرئيسية
+• خلفية نجوم جديدة تبقى ثابتة عند تدوير الجهاز
+• هل أعجبك التطبيق؟ المس النجمة لكتابة مراجعة أو مشاركته مع أصدقائك
+• إصلاحات لسجل الرميات وVoiceOver
+```
+
 ---
 
 ## 14. Polish (`pl`)
@@ -655,6 +772,15 @@ Najważniejsze funkcje:
 • Prywatność i offline: bez konta, bez zbierania danych, działa bez internetu.
 
 Koniec zgadywania. Rzuć monetą. Pobierz teraz i pozwól losowi zdecydować!
+```
+
+**What's New (1.1)** (333/4000)
+```
+• Teraz w 18 językach, z lokalnymi nazwami stron monety
+• Nowy przewodnik krok po kroku, jak dodać widżet do ekranu głównego
+• Nowe gwiezdne tło, które pozostaje nieruchome podczas obracania urządzenia
+• Podoba Ci się aplikacja? Stuknij gwiazdkę, aby napisać recenzję lub udostępnić ją znajomym
+• Poprawki historii rzutów i VoiceOver
 ```
 
 ---
@@ -703,6 +829,15 @@ Key Features:
 Stop guessing. Start flipping. Download now and let fate decide!
 ```
 
+**What's New (1.1)** (329/4000)
+```
+• Now available in 18 languages, with the local names for heads and tails
+• New step-by-step guide for adding the widget to your Home Screen
+• A fresh starfield background that stays put when you rotate your device
+• Enjoying the app? Tap the star to leave a review or share it with friends
+• Fixes for flip history and VoiceOver
+```
+
 ---
 
 ## 16. Swedish (`sv`)
@@ -745,6 +880,15 @@ Huvudfunktioner:
 • Privat och offline: inget konto, ingen datainsamling, fungerar utan internet.
 
 Sluta gissa. Singla slant. Ladda ner nu och låt ödet avgöra!
+```
+
+**What's New (1.1)** (333/4000)
+```
+• Nu på 18 språk, med de lokala namnen på krona och klave
+• Ny steg-för-steg-guide för att lägga till widgeten på hemskärmen
+• Ny stjärnhimmel i bakgrunden som ligger still när du vrider enheten
+• Gillar du appen? Tryck på stjärnan för att skriva en recension eller dela den med vänner
+• Förbättringar av kasthistoriken och VoiceOver
 ```
 
 ---
@@ -793,6 +937,15 @@ Key Features:
 Stop guessing. Start flipping. Download now and let fate decide!
 ```
 
+**What's New (1.1)** (329/4000)
+```
+• Now available in 18 languages, with the local names for heads and tails
+• New step-by-step guide for adding the widget to your Home Screen
+• A fresh starfield background that stays put when you rotate your device
+• Enjoying the app? Tap the star to leave a review or share it with friends
+• Fixes for flip history and VoiceOver
+```
+
 ---
 
 ## 18. Vietnamese (`vi`)
@@ -837,6 +990,15 @@ Tính năng chính:
 • Riêng tư và ngoại tuyến: không cần tài khoản, không thu thập dữ liệu, hoạt động không cần Internet.
 
 Đừng đoán nữa. Hãy tung đồng xu. Tải ngay và để số phận quyết định!
+```
+
+**What's New (1.1)** (308/4000)
+```
+• Hiện có 18 ngôn ngữ, với tên gọi địa phương cho mặt sấp và mặt ngửa
+• Hướng dẫn từng bước mới để thêm tiện ích vào Màn hình chính
+• Hình nền bầu trời sao mới, đứng yên khi bạn xoay thiết bị
+• Bạn thích ứng dụng? Chạm vào ngôi sao để viết đánh giá hoặc chia sẻ với bạn bè
+• Sửa lỗi lịch sử tung và VoiceOver
 ```
 
 ---
@@ -885,6 +1047,15 @@ Key Features:
 Stop guessing. Start flipping. Download now and let fate decide!
 ```
 
+**What's New (1.1)** (329/4000)
+```
+• Now available in 18 languages, with the local names for heads and tails
+• New step-by-step guide for adding the widget to your Home Screen
+• A fresh starfield background that stays put when you rotate your device
+• Enjoying the app? Tap the star to leave a review or share it with friends
+• Fixes for flip history and VoiceOver
+```
+
 ---
 
 ## 20. French (Canada) (`fr-CA`)
@@ -929,4 +1100,13 @@ Fonctionnalités :
 • Privé et hors ligne : pas de compte, aucune collecte de données, fonctionne sans internet.
 
 Arrêtez de deviner. Lancez la pièce. Téléchargez maintenant et laissez le destin décider !
+```
+
+**What's New (1.1)** (379/4000)
+```
+• Désormais disponible en 18 langues, avec le nom local de chaque côté de la pièce
+• Nouveau guide pas à pas pour ajouter le widget à votre écran d’accueil
+• Nouveau fond étoilé qui reste immobile quand vous faites pivoter l’appareil
+• Vous aimez l’app ? Touchez l’étoile pour laisser un avis ou la partager avec vos amis
+• Corrections de l’historique des lancers et de VoiceOver
 ```
