@@ -71,7 +71,7 @@ struct SupportView: View {
                         .background(WidgetGuideStyle.gold, in: RoundedRectangle(cornerRadius: 18))
                 }
 
-                ShareLink(item: shareText, preview: SharePreview("Widget Flip", image: Image("GuideAppIcon"))) {
+                ShareLink(item: shareText) {
                     Label("Share Widget Flip", systemImage: "square.and.arrow.up")
                         .font(.body.weight(.semibold))
                         .foregroundStyle(WidgetGuideStyle.ink)
