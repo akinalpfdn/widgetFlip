@@ -36,3 +36,11 @@
 "Edit → Add Widget" = "+ → Araç Takımı Ekle";
 "Add Widget → Done" = "Araç Takımı Ekle → Bitti";
 "Step %lld of 3" = "Adım %lld / 3";
+
+/* Support */
+"Support Widget Flip" = "Widget Flip’e destek ol";
+"Enjoying Widget Flip?" = "Widget Flip’i sevdin mi?";
+"Widget Flip has no ads and nothing to buy. If you enjoy it, please support us by leaving a review or sharing it with friends." = "Widget Flip’te reklam yok, satın alınacak hiçbir şey yok. Beğendiysen yorum yazarak ya da arkadaşlarınla paylaşarak bize destek olabilirsin.";
+"Write a Review" = "Yorum Yaz";
+"Share Widget Flip" = "Widget Flip’i Paylaş";
+"Flip a coin right from your Home Screen." = "Ana ekrandan tek dokunuşla yazı tura at.";

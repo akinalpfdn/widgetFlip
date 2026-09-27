@@ -1,6 +1,7 @@
 import SwiftUI
 
-private enum WidgetGuideStyle {
+// Shared by the widget guide and the support sheet.
+enum WidgetGuideStyle {
     static let background = Color(red: 0.065, green: 0.067, blue: 0.075)
     static let gold = Color(red: 0.94, green: 0.77, blue: 0.48)
     static let ink = Color(red: 0.96, green: 0.94, blue: 0.89)

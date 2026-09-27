@@ -23,7 +23,11 @@ struct FlipCoinIntent: AppIntent {
             // Increment rotation counter for animation
             let currentCount = sharedDefaults.integer(forKey: "flipCount")
             sharedDefaults.set(currentCount + 1, forKey: "flipCount")
-            
+
+            // Count every flip (widget and app); the app uses it to ask for a review
+            let totalFlips = sharedDefaults.integer(forKey: "totalFlips")
+            sharedDefaults.set(totalFlips + 1, forKey: "totalFlips")
+
             // 2. Append to History for the Main App
             var history = sharedDefaults.stringArray(forKey: "flipHistory") ?? []
             let timestamp = Date().formatted(date: .abbreviated, time: .shortened)

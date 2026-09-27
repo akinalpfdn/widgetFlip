@@ -25,3 +25,11 @@
 "Edit → Add Widget" = "+ → Добавить виджет";
 "Add Widget → Done" = "Добавить виджет → Готово";
 "Step %lld of 3" = "Шаг %lld из 3";
+
+/* Support */
+"Support Widget Flip" = "Поддержать Widget Flip";
+"Enjoying Widget Flip?" = "Нравится Widget Flip?";
+"Widget Flip has no ads and nothing to buy. If you enjoy it, please support us by leaving a review or sharing it with friends." = "В Widget Flip нет рекламы и платных функций. Если приложение вам нравится, поддержите нас отзывом или поделитесь им с друзьями.";
+"Write a Review" = "Написать отзыв";
+"Share Widget Flip" = "Поделиться Widget Flip";
+"Flip a coin right from your Home Screen." = "Подбрасывайте монетку прямо на экране «Домой».";

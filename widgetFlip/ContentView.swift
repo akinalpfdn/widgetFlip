@@ -1,15 +1,20 @@
 import SwiftUI
+import StoreKit
 import WidgetKit
 
 struct ContentView: View {
     let sharedDefaults = UserDefaults(suiteName: "group.com.akinalpfdn.widgetflip")
-    
+    let reviewFlipThreshold = 10
+
     @State private var history: [String] = []
     @State private var coinSide: String = "HEADS"
     @State private var rotation: Double = 0
     @State private var isFlipping = false
     @State private var isShowingWidgetGuide = false
+    @State private var isShowingSupport = false
     @AppStorage("hasSeenWidgetSetupGuide") private var hasSeenWidgetSetupGuide = false
+    @AppStorage("lastReviewRequestVersion") private var lastReviewRequestVersion = ""
+    @Environment(\.requestReview) private var requestReview
 
     
     // Gradients
@@ -44,6 +49,18 @@ struct ContentView: View {
             
             VStack {
                 HStack {
+                    Button {
+                        isShowingSupport = true
+                    } label: {
+                        Image(systemName: "star.fill")
+                            .font(.system(size: 22, weight: .semibold))
+                            .foregroundStyle(.orange)
+                            .frame(width: 50, height: 50)
+                            .background(.black.opacity(0.4), in: Circle())
+                    }
+                    .buttonStyle(.plain)
+                    .accessibilityLabel("Support Widget Flip")
+
                     Spacer()
                     Button {
                         isShowingWidgetGuide = true
@@ -86,7 +103,8 @@ struct ContentView: View {
                     
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack(spacing: 15) {
-                            ForEach(history, id: \.self) { item in
+                            // Entries repeat (same side within the same minute), so identify them by position
+                            ForEach(Array(history.enumerated()), id: \.offset) { _, item in
                                 VStack {
                                     Image(decorative: item.contains("HEADS") ? "HeadsImage" : "TailsImage")
                                         .resizable()
@@ -121,6 +139,9 @@ struct ContentView: View {
             hasSeenWidgetSetupGuide = true
         }) {
             WidgetSetupGuideView()
+        }
+        .sheet(isPresented: $isShowingSupport) {
+            SupportView()
         }
         .onReceive(NotificationCenter.default.publisher(for: UIApplication.willEnterForegroundNotification)) { _ in
             loadHistory()
@@ -162,11 +183,25 @@ struct ContentView: View {
         history.insert(entry, at: 0)
         if history.count > 50 { history = Array(history.prefix(50)) }
         sharedDefaults?.set(history, forKey: "flipHistory")
-        
+
+        // Count every flip (app and widget) for the review prompt
+        let totalFlips = (sharedDefaults?.integer(forKey: "totalFlips") ?? 0) + 1
+        sharedDefaults?.set(totalFlips, forKey: "totalFlips")
+
         // Reload widget timeline
         WidgetCenter.shared.reloadAllTimelines()
+
+        requestReviewIfNeeded(totalFlips: totalFlips)
     }
-    
+
+    // Asks once per app version, right after a finished flip; iOS decides whether the prompt actually shows.
+    func requestReviewIfNeeded(totalFlips: Int) {
+        let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? ""
+        guard totalFlips >= reviewFlipThreshold, lastReviewRequestVersion != version else { return }
+        lastReviewRequestVersion = version
+        requestReview()
+    }
+
     func loadHistory() {
         history = sharedDefaults?.stringArray(forKey: "flipHistory") ?? []
         coinSide = sharedDefaults?.string(forKey: "coinSide") ?? "HEADS"

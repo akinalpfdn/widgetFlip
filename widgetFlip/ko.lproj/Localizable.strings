@@ -25,3 +25,11 @@
 "Edit → Add Widget" = "편집 → 위젯 추가";
 "Add Widget → Done" = "위젯 추가 → 완료";
 "Step %lld of 3" = "3단계 중 %lld단계";
+
+/* Support */
+"Support Widget Flip" = "Widget Flip 응원하기";
+"Enjoying Widget Flip?" = "Widget Flip이 마음에 드시나요?";
+"Widget Flip has no ads and nothing to buy. If you enjoy it, please support us by leaving a review or sharing it with friends." = "Widget Flip에는 광고도, 유료 결제도 없습니다. 마음에 드셨다면 리뷰를 남기거나 친구에게 공유해 응원해 주세요.";
+"Write a Review" = "리뷰 작성하기";
+"Share Widget Flip" = "Widget Flip 공유하기";
+"Flip a coin right from your Home Screen." = "홈 화면에서 바로 동전 던지기.";

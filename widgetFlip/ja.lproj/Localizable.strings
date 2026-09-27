@@ -25,3 +25,11 @@
 "Edit → Add Widget" = "編集 → ウィジェットを追加";
 "Add Widget → Done" = "ウィジェットを追加 → 完了";
 "Step %lld of 3" = "ステップ %lld/3";
+
+/* Support */
+"Support Widget Flip" = "Widget Flipを応援";
+"Enjoying Widget Flip?" = "Widget Flipは気に入りましたか？";
+"Widget Flip has no ads and nothing to buy. If you enjoy it, please support us by leaving a review or sharing it with friends." = "Widget Flipには広告も課金もありません。気に入っていただけたら、レビューを書くか友だちにシェアして応援してください。";
+"Write a Review" = "レビューを書く";
+"Share Widget Flip" = "Widget Flipをシェア";
+"Flip a coin right from your Home Screen." = "ホーム画面からすぐにコイントス。";
