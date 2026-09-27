@@ -1,0 +1,51 @@
+[
+  {
+    "source": "/Users/akinalpfidan/Desktop/SS/widgetFlipIpadEn/Simulator Screenshot - iPad Air 13-inch (M3) - 2025-12-27 at 18.15.52.png",
+    "copy": "assets/home-medium.png",
+    "crop": "assets/widget-medium.png",
+    "bounds": [
+      276,
+      98,
+      988,
+      418
+    ]
+  },
+  {
+    "source": "/Users/akinalpfidan/Desktop/SS/widgetFlipIpadEn/Simulator Screenshot - iPad Air 13-inch (M3) - 2025-12-27 at 18.24.59.png",
+    "copy": "assets/home-small.png",
+    "crop": "assets/widget-small.png",
+    "bounds": [
+      276,
+      98,
+      596,
+      418
+    ]
+  },
+  {
+    "source": "/Users/akinalpfidan/Desktop/SS/widgetFlipIpadEn/Simulator Screenshot - iPad Air 13-inch (M3) - 2025-12-27 at 18.25.08.png",
+    "copy": "assets/home-large.png",
+    "crop": "assets/widget-large.png",
+    "bounds": [
+      276,
+      98,
+      988,
+      810
+    ]
+  },
+  {
+    "source": "Native app captured on isolated iPad Air 13-inch (M3), iOS 26.5 simulator",
+    "copy": "assets/app.png",
+    "dimensions": [
+      2048,
+      2732
+    ],
+    "sampleData": "Eight representative heads/tails results seeded in the test simulator only. Actual app UI, no UI reconstruction.",
+    "crop": "assets/history.png",
+    "bounds": [
+      28,
+      2480,
+      842,
+      2634
+    ]
+  }
+]
