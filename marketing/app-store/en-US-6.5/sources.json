@@ -1,0 +1,50 @@
+{
+  "canvas": [
+    1242,
+    2688
+  ],
+  "sources": {
+    "app": "Simulator Screenshot - iPhone 17 Pro Max - 2025-12-27 at 19.59.47.png",
+    "home-small": "Simulator Screenshot - iPhone 17 Pro Max - 2025-12-27 at 19.59.59.png",
+    "home-medium": "Simulator Screenshot - iPhone 17 Pro Max - 2025-12-27 at 20.00.04.png",
+    "home-large": "Simulator Screenshot - iPhone 17 Pro Max - 2025-12-27 at 20.00.08.png"
+  },
+  "crops": {
+    "widget-small": {
+      "source": "Simulator Screenshot - iPhone 17 Pro Max - 2025-12-27 at 19.59.59.png",
+      "box": [
+        80,
+        276,
+        590,
+        784
+      ]
+    },
+    "widget-medium": {
+      "source": "Simulator Screenshot - iPhone 17 Pro Max - 2025-12-27 at 20.00.04.png",
+      "box": [
+        80,
+        276,
+        1164,
+        784
+      ]
+    },
+    "widget-large": {
+      "source": "Simulator Screenshot - iPhone 17 Pro Max - 2025-12-27 at 20.00.08.png",
+      "box": [
+        80,
+        276,
+        1164,
+        1404
+      ]
+    },
+    "history": {
+      "source": "Simulator Screenshot - iPhone 17 Pro Max - 2025-12-27 at 19.59.47.png",
+      "box": [
+        40,
+        2260,
+        1242,
+        2496
+      ]
+    }
+  }
+}

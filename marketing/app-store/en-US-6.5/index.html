@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Widget Flip — English App Store Screenshots</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;background:#252525}body{font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+:root{--gold:#efc77f;--cream:#f4efe4;--dark:#111315;--ink:#202422;--muted:#acaaa5}
+.shot{width:1242px;height:2688px;position:relative;overflow:hidden;isolation:isolate;background:var(--dark);color:var(--cream)}
+.shot.light{background:var(--cream);color:var(--ink)}
+.brand{position:absolute;top:100px;left:90px;display:flex;align-items:center;gap:19px;font-size:32px;font-weight:600;letter-spacing:-.7px;z-index:10}
+.brand img{width:54px;height:54px;border-radius:14px}
+.copy{position:absolute;left:88px;right:70px;top:236px;z-index:5}
+h1{font-size:126px;line-height:1.04;letter-spacing:-6.3px;font-weight:730;margin:0}h1 span{color:var(--gold)}
+.light h1 span{color:#967035}
+p{font-size:76px;line-height:1.2;font-weight:600;letter-spacing:-1.2px;margin:36px 0 0;color:#ece9e2}.light p{color:#373b35}
+.phone{position:absolute;padding:15px;background:linear-gradient(130deg,#858984 0%,#2d302e 14%,#77796f 41%,#222526 70%,#6d7169 100%);border-radius:106px;box-shadow:0 50px 95px #0006,0 2px 0 #ffffff80 inset;z-index:2}
+.phone::after{content:"";position:absolute;inset:7px;border:2px solid #ffffff30;border-radius:100px;pointer-events:none}
+.screen{width:100%;border:9px solid #070808;border-radius:92px;overflow:hidden;background:#000}
+.screen img{display:block;width:100%;height:auto}
+.widget{position:absolute;object-fit:contain;filter:drop-shadow(0 24px 40px #0005);z-index:4}
+.widget.small{border-radius:22.5%}.widget.medium{border-radius:10% / 22%}.widget.large{border-radius:9.3%}
+.caption{position:absolute;font-size:50px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#55584e}
+.glow{position:absolute;width:1400px;height:1800px;border-radius:50%;background:radial-gradient(ellipse,#b184422a 0%,#a87b3712 40%,transparent 67%);z-index:-1;pointer-events:none}
+#home .glow{left:-410px;top:600px}
+#home .phone{width:760px;left:395px;top:960px;transform:rotate(5deg)}
+#home .focus-widget{width:530px;left:72px;top:1460px;transform:rotate(-5deg);box-shadow:0 40px 70px #0007;border:1px solid #dcb47033}
+#home .tap{position:absolute;left:154px;top:2100px;display:flex;align-items:center;gap:16px;color:var(--gold);font-size:60px;font-weight:600;transform:rotate(-5deg);z-index:5}
+.tap svg{width:56px;height:56px}
+#sizes h1{font-size:137px}#sizes .copy{top:250px}
+#sizes .widget.large{left:82px;top:830px;width:704px;filter:drop-shadow(0 32px 35px #41382433)}
+#sizes .widget.small{left:839px;top:1120px;width:321px;filter:drop-shadow(0 22px 25px #41382433)}
+#sizes .widget.medium{left:82px;top:1815px;width:1078px;filter:drop-shadow(0 32px 35px #41382433)}
+#sizes .caption.large-label{left:90px;top:1610px}#sizes .caption.small-label{left:848px;top:1480px}#sizes .caption.medium-label{left:90px;top:2370px}
+#sizes .rule{position:absolute;left:90px;right:90px;bottom:164px;height:1px;background:#20242220}
+#history .glow{left:-40px;top:850px}
+#history .phone{width:816px;left:213px;top:820px}
+#history .history-panel{position:absolute;z-index:6;left:60px;top:2110px;width:1122px;padding:36px 26px 24px;background:#161719;border:1px solid #ffffff24;border-radius:40px;box-shadow:0 28px 65px #0009}
+.history-panel .label{font-size:48px;font-weight:600;letter-spacing:2.5px;color:var(--gold);padding:0 15px 23px}
+.history-panel img{width:100%;height:auto;display:block;border-radius:20px}
+body.preview{display:flex;gap:24px;padding:24px;align-items:flex-start;width:max-content}
+body.preview .shot{zoom:.24;border-radius:22px;box-shadow:0 14px 30px #0004}
+body.single .shot{display:none}body.single .shot.selected{display:block}
+</style>
+</head>
+<body class="preview">
+<section class="shot" id="home" data-file="01-home-screen.png">
+  <div class="brand"><img src="assets/icon.png" alt="">Widget Flip</div>
+  <div class="copy"><h1>Flip a coin.<br>On your<br><span>Home Screen.</span></h1><p>Instant coin flip without<br>opening any app.</p></div>
+  <div class="glow"></div>
+  <div class="phone"><div class="screen"><img src="assets/home-medium.png" alt="Widget Flip on the Home Screen"></div></div>
+  <img class="widget small focus-widget" src="assets/widget-small.png" alt="Small interactive coin widget">
+  <div class="tap"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M13 15V6a3 3 0 0 1 6 0v10l3-3a2 2 0 0 1 3 0l3 4c2 4 0 10-4 12H14c-3-1-5-4-7-7l-3-5a2 2 0 0 1 3-3l6 5"/></svg>Tap to flip</div>
+</section>
+<section class="shot light" id="sizes" data-file="02-widget-sizes.png">
+  <div class="brand"><img src="assets/icon.png" alt="">Widget Flip</div>
+  <div class="copy"><h1>Pick your<br><span>widget size.</span></h1><p>Made to fit your<br>Home Screen.</p></div>
+  <img class="widget large" src="assets/widget-large.png" alt="Large widget">
+  <img class="widget small" src="assets/widget-small.png" alt="Small widget">
+  <span class="caption large-label">Large</span><span class="caption small-label">Small</span>
+  <img class="widget medium" src="assets/widget-medium.png" alt="Medium widget">
+  <span class="caption medium-label">Medium</span><div class="rule"></div>
+</section>
+<section class="shot" id="history" data-file="03-flip-history.png">
+  <div class="brand"><img src="assets/icon.png" alt="">Widget Flip</div>
+  <div class="copy"><h1>Keep your<br><span>recent flips.</span></h1><p>See your latest<br>heads and tails.</p></div>
+  <div class="glow"></div>
+  <div class="phone"><div class="screen"><img src="assets/app.png" alt="Coin flip app with recent results"></div></div>
+  <div class="history-panel"><div class="label">RECENT FLIPS</div><img src="assets/history.png" alt="Actual flip history, enlarged for detail"></div>
+</section>
+
+<script>
+const chosen = new URLSearchParams(location.search).get('shot');
+if(chosen){document.body.className='single';document.getElementById(chosen)?.classList.add('selected');}
+</script>
+</body>
+</html>
